@@ -1,0 +1,229 @@
+{
+  "supplier": "Global Industrial (synthetic stand-in)",
+  "generated": "2026-08-05",
+  "note": "Synthetic catalog. SKUs, prices and costs are invented for demo purposes and do not represent any real supplier's data.",
+  "items": [
+    {
+      "sku": "GI-4417832",
+      "mfr_part": "HDS-4824-72",
+      "description": "Heavy Duty Steel Shelving Unit, 48\"W x 24\"D x 72\"H, 5 Shelf",
+      "category": "storage",
+      "uom": "EA",
+      "list_price": 289.00,
+      "unit_cost": 164.00,
+      "stock": 340,
+      "keywords": ["steel shelving", "shelving unit", "shelf", "shelving", "rack", "heavy duty shelving"]
+    },
+    {
+      "sku": "GI-4417840",
+      "mfr_part": "HDS-3618-72",
+      "description": "Heavy Duty Steel Shelving Unit, 36\"W x 18\"D x 72\"H, 5 Shelf",
+      "category": "storage",
+      "uom": "EA",
+      "list_price": 229.00,
+      "unit_cost": 134.00,
+      "stock": 210,
+      "keywords": ["steel shelving", "shelving unit", "shelf", "shelving", "rack", "heavy duty shelving"]
+    },
+    {
+      "sku": "GI-4417857",
+      "mfr_part": "HDS-AO-4824",
+      "description": "Steel Shelving Add-On Shelf Level, 48\"W x 24\"D",
+      "category": "storage",
+      "uom": "EA",
+      "list_price": 54.00,
+      "unit_cost": 31.00,
+      "stock": 880,
+      "keywords": ["add-on shelf", "extra shelf", "shelf level", "shelving accessory"]
+    },
+    {
+      "sku": "GI-5520880",
+      "mfr_part": "WS-4818-72",
+      "description": "Wire Shelving Unit, Chrome, 48\"W x 18\"D x 72\"H, 5 Shelf",
+      "category": "storage",
+      "uom": "EA",
+      "list_price": 199.00,
+      "unit_cost": 121.00,
+      "stock": 150,
+      "keywords": ["wire shelving", "chrome shelving", "wire rack", "shelving unit"]
+    },
+    {
+      "sku": "GI-2210094",
+      "mfr_part": "PJ-5500-2748",
+      "description": "Manual Pallet Jack, 5500 lb Capacity, 27\"W x 48\"L Forks",
+      "category": "material-handling",
+      "uom": "EA",
+      "list_price": 1199.00,
+      "unit_cost": 940.00,
+      "stock": 26,
+      "keywords": ["pallet jack", "pallet truck", "hand pallet jack", "manual pallet jack"]
+    },
+    {
+      "sku": "GI-2210101",
+      "mfr_part": "PJ-5500-2048",
+      "description": "Manual Pallet Jack, 5500 lb Capacity, 20.5\"W x 48\"L Forks",
+      "category": "material-handling",
+      "uom": "EA",
+      "list_price": 1149.00,
+      "unit_cost": 905.00,
+      "stock": 14,
+      "keywords": ["pallet jack", "pallet truck", "hand pallet jack", "narrow pallet jack"]
+    },
+    {
+      "sku": "GI-2210119",
+      "mfr_part": "EPJ-4500",
+      "description": "Electric Pallet Jack, 4500 lb Capacity, 27\"W x 48\"L Forks",
+      "category": "material-handling",
+      "uom": "EA",
+      "list_price": 4295.00,
+      "unit_cost": 3510.00,
+      "stock": 6,
+      "keywords": ["electric pallet jack", "powered pallet jack", "walkie"]
+    },
+    {
+      "sku": "GI-3345120",
+      "mfr_part": "DD-55-STL",
+      "description": "Steel Drum Dolly, 55 Gallon, 1000 lb Capacity",
+      "category": "material-handling",
+      "uom": "EA",
+      "list_price": 149.00,
+      "unit_cost": 98.00,
+      "stock": 60,
+      "keywords": ["drum dolly", "drum truck", "55 gallon dolly", "barrel dolly"]
+    },
+    {
+      "sku": "GI-3345138",
+      "mfr_part": "DD-55-POLY",
+      "description": "Polyethylene Drum Dolly, 55 Gallon, 900 lb Capacity",
+      "category": "material-handling",
+      "uom": "EA",
+      "list_price": 139.00,
+      "unit_cost": 92.00,
+      "stock": 45,
+      "keywords": ["drum dolly", "drum truck", "55 gallon dolly", "barrel dolly", "poly dolly"]
+    },
+    {
+      "sku": "GI-9912045",
+      "mfr_part": "SG-AF-CLR",
+      "description": "Safety Glasses, Clear Anti-Fog Lens, ANSI Z87.1",
+      "category": "safety",
+      "uom": "PR",
+      "list_price": 4.35,
+      "unit_cost": 2.60,
+      "stock": 5000,
+      "keywords": ["safety glasses", "safety goggles", "eye protection", "anti-fog glasses", "spectacles"]
+    },
+    {
+      "sku": "GI-9912053",
+      "mfr_part": "SG-AF-SMK",
+      "description": "Safety Glasses, Smoke Lens, ANSI Z87.1",
+      "category": "safety",
+      "uom": "PR",
+      "list_price": 4.55,
+      "unit_cost": 2.75,
+      "stock": 3200,
+      "keywords": ["safety glasses", "smoke lens", "tinted safety glasses", "eye protection"]
+    },
+    {
+      "sku": "GI-8830531",
+      "mfr_part": "HV-VEST-C2-XL",
+      "description": "Hi-Visibility Safety Vest, Class 2, XL, Lime",
+      "category": "safety",
+      "uom": "EA",
+      "list_price": 12.95,
+      "unit_cost": 7.80,
+      "stock": 1400,
+      "keywords": ["safety vest", "hi vis vest", "high visibility vest", "class 2 vest"]
+    },
+    {
+      "sku": "GI-8830515",
+      "mfr_part": "NG-PF-L-10",
+      "description": "Nitrile Exam Gloves, Powder-Free, Large, 10 Boxes/Case (100/Box)",
+      "category": "safety-consumables",
+      "uom": "CS",
+      "uom_conversion": {"BX": 10},
+      "list_price": 118.50,
+      "unit_cost": 86.00,
+      "stock": 900,
+      "keywords": ["nitrile gloves", "exam gloves", "disposable gloves", "gloves"]
+    },
+    {
+      "sku": "GI-8830523",
+      "mfr_part": "NG-PF-M-10",
+      "description": "Nitrile Exam Gloves, Powder-Free, Medium, 10 Boxes/Case (100/Box)",
+      "category": "safety-consumables",
+      "uom": "CS",
+      "uom_conversion": {"BX": 10},
+      "list_price": 118.50,
+      "unit_cost": 86.00,
+      "stock": 760,
+      "keywords": ["nitrile gloves", "exam gloves", "disposable gloves", "gloves"]
+    },
+    {
+      "sku": "GI-7761030",
+      "mfr_part": "NFC-4X1",
+      "description": "Neutral pH Floor Cleaner Concentrate, 4 x 1 Gallon Case",
+      "category": "janitorial",
+      "uom": "CS",
+      "list_price": 62.00,
+      "unit_cost": 38.00,
+      "stock": 400,
+      "keywords": ["floor cleaner", "neutral cleaner", "neutral floor cleaner", "floor soap"]
+    },
+    {
+      "sku": "GI-7761048",
+      "mfr_part": "HDD-4X1",
+      "description": "Heavy Duty Degreaser, 4 x 1 Gallon Case",
+      "category": "janitorial",
+      "uom": "CS",
+      "list_price": 78.00,
+      "unit_cost": 49.00,
+      "stock": 300,
+      "keywords": ["degreaser", "heavy duty degreaser", "cleaner degreaser"]
+    },
+    {
+      "sku": "GI-7761055",
+      "mfr_part": "MF-CLOTH-12",
+      "description": "Microfiber Cleaning Cloths, 16\" x 16\", 12 Pack",
+      "category": "janitorial",
+      "uom": "PK",
+      "list_price": 18.40,
+      "unit_cost": 10.90,
+      "stock": 2200,
+      "keywords": ["microfiber", "cleaning cloths", "rags", "microfiber towels"]
+    },
+    {
+      "sku": "GI-1102334",
+      "mfr_part": "AFM-3X5",
+      "description": "Rubber Anti-Fatigue Floor Mat, 3' x 5', Black",
+      "category": "safety",
+      "uom": "EA",
+      "list_price": 89.00,
+      "unit_cost": 54.00,
+      "stock": 320,
+      "keywords": ["anti-fatigue mat", "floor mat", "rubber mat", "standing mat"]
+    },
+    {
+      "sku": "GI-6640210",
+      "mfr_part": "HB-150-50K",
+      "description": "LED High Bay Light, 150W, 5000K, 21000 Lumens",
+      "category": "electrical",
+      "uom": "EA",
+      "list_price": 189.00,
+      "unit_cost": 128.00,
+      "stock": 240,
+      "keywords": ["high bay", "led high bay", "warehouse light", "shop light"]
+    },
+    {
+      "sku": "GI-6640228",
+      "mfr_part": "WP-80-50K",
+      "description": "LED Wall Pack, 80W, 5000K, Photocell",
+      "category": "electrical",
+      "uom": "EA",
+      "list_price": 142.00,
+      "unit_cost": 96.00,
+      "stock": 180,
+      "keywords": ["wall pack", "led wall pack", "exterior light", "building light"]
+    }
+  ]
+}

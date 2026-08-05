@@ -1,0 +1,5 @@
+# The pipeline and its tests run on the standard library alone.
+# These are only needed for the optional extras:
+
+anthropic>=0.116.0   # --extractor llm (Claude-backed RFQ extraction)
+pytest>=8.0          # test suite
