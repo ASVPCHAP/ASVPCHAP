@@ -1,0 +1,77 @@
+{
+  "note": "Synthetic GPO contract terms. Structure mirrors how GPO/supplier agreements actually resolve price (fixed line pricing > category rule > member tier > list), but all values are invented.",
+  "contracts": [
+    {
+      "contract_id": "RMP-MRO-2026",
+      "gpo": "Rampart",
+      "supplier": "Global Industrial",
+      "effective": "2026-01-01",
+      "expires": "2026-12-31",
+      "covered_categories": ["storage", "material-handling", "janitorial", "electrical", "safety"],
+      "tiers": {
+        "bronze": 0.12,
+        "silver": 0.18,
+        "gold": 0.24
+      },
+      "category_rules": {
+        "storage": 0.28,
+        "electrical": 0.26,
+        "janitorial": 0.20
+      },
+      "line_prices": {
+        "GI-6640210": {"type": "fixed", "price": 155.00}
+      },
+      "volume_breaks": {
+        "GI-4417832": [
+          {"min_qty": 10, "pct": 0.05},
+          {"min_qty": 25, "pct": 0.08}
+        ],
+        "GI-9912045": [
+          {"min_qty": 100, "pct": 0.06},
+          {"min_qty": 500, "pct": 0.11}
+        ],
+        "GI-7761030": [
+          {"min_qty": 5, "pct": 0.04}
+        ],
+        "GI-2210094": [
+          {"min_qty": 5, "pct": 0.03}
+        ]
+      },
+      "best_price_clause": true,
+      "margin_floor_pct": 0.15,
+      "max_line_qty": 500,
+      "freight_terms": "FOB destination, prepaid on orders of $500 or more",
+      "payment_terms": "Net 45"
+    }
+  ],
+  "members": [
+    {
+      "member_id": "RMP-10442",
+      "name": "St Mary's Regional Health",
+      "contract_id": "RMP-MRO-2026",
+      "tier": "gold",
+      "status": "active",
+      "tax_exempt": true,
+      "ship_to": ["Cedar Falls Campus - Dock 3", "Downtown Clinic"]
+    },
+    {
+      "member_id": "RMP-20817",
+      "name": "Kettle Creek School District",
+      "contract_id": "RMP-MRO-2026",
+      "tier": "bronze",
+      "status": "suspended",
+      "suspension_reason": "Membership dues past due 90+ days",
+      "tax_exempt": true,
+      "ship_to": ["District Warehouse"]
+    },
+    {
+      "member_id": "RMP-30155",
+      "name": "Northline Manufacturing",
+      "contract_id": "RMP-MRO-2026",
+      "tier": "silver",
+      "status": "active",
+      "tax_exempt": false,
+      "ship_to": ["Plant 2 Receiving"]
+    }
+  ]
+}
