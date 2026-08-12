@@ -76,7 +76,7 @@ async function loadAuxiliaryDetail() {
     return;
   }
 
-  document.title = `${aux.name} | TLG Mesquite`;
+  document.title = `${aux.name} | The Living Gospel - Mesquite`;
 
   const contactsRows = aux.contacts
     .map(

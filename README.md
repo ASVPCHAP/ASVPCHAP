@@ -1,12 +1,13 @@
-# TLG Mesquite — Auxiliary Handbook
+# The Living Gospel - Mesquite — Auxiliary Handbook
 
 A simple static website that serves as the reference dossier for the church: how the
 church is structured, the auxiliaries (ministries/service teams) that run it, who leads
 each one, how to reach them, their standard operating procedures, and the supplies each
 team needs.
 
-> **Note:** "TLG Mesquite" is a placeholder name pulled from the church's domain. Update
-> the brand name, colors, and mission text once confirmed.
+> **Note:** Name, mission, address, and service times below were pulled from public search results,
+> not confirmed directly by the church. Logo and brand colors are still placeholders — send over the
+> actual logo/colors when available.
 
 ## Structure
 
