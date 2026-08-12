@@ -15,9 +15,12 @@ team needs.
 - `auxiliaries.html` — searchable directory of all auxiliaries
 - `auxiliary.html` — detail template for a single auxiliary (loaded via `?slug=...`)
 - `sop-questionnaire.html` — shared SOP questionnaire, submitted via Netlify Forms (see below)
+- `update-request.html` — shared form for adding a contact, adding a note, or requesting
+  supplies for a specific auxiliary, also via Netlify Forms
 - `data/auxiliaries.json` — all auxiliary data: contacts, SOPs, supplies, assessment notes
 - `assets/style.css`, `assets/app.js` — shared styling and rendering logic
-- `assets/sop-form.js` — questionnaire pre-fill and submission logic
+- `assets/sop-form.js` — SOP questionnaire pre-fill and submission logic
+- `assets/update-form.js` — update-request form logic (request-type toggling, submission)
 - `assets/images/logo.png` — church logo, used in the header and as favicon
 
 ## How to add or edit content
@@ -86,6 +89,20 @@ Coverage, Training & Onboarding, and Special Circumstances.
   into that auxiliary's `sop` array (and `supplies`, etc.) in `data/auxiliaries.json`.
 - Each auxiliary detail page shows a "Help complete this SOP" link (pointing at
   `sop-questionnaire.html?slug=...`) whenever its `sop` array is still empty.
+
+## Update-request workflow
+
+Every auxiliary detail page has three "Quick Actions" buttons — **Add a Contact**, **Add a
+Note**, **Request Supplies** — linking to `update-request.html?slug=<aux>&type=<contact|note|supplies>`.
+That single shared form pre-selects the auxiliary and the request type, and
+`assets/update-form.js` shows only the relevant fields for that type.
+
+- Same mechanics as the SOP questionnaire: Netlify Forms (form name `auxiliary-update`), no
+  backend, submissions land in the Netlify dashboard under Forms.
+- Also **not** auto-published — review submissions and manually apply them: a contact request
+  gets added to that auxiliary's `contacts` array, a note gets folded into `notes`, a supply
+  request gets added to `supplies` (or just tracked/actioned outside the site, since it's a
+  request rather than a documented fact).
 
 ## Running locally
 

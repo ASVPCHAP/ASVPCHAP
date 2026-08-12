@@ -431,3 +431,33 @@ footer.site-footer {
   border: 1px solid #e3a8a8;
   color: #7a1f1f;
 }
+
+.quick-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.quick-actions .btn {
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.radio-option {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500 !important;
+  cursor: pointer;
+}
+
+.radio-option input {
+  width: auto;
+}

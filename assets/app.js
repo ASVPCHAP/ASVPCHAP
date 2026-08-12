@@ -133,9 +133,18 @@ async function loadAuxiliaryDetail() {
     </div>`
     : "";
 
+  const slugParam = encodeURIComponent(aux.slug);
+  const quickActionsHtml = `
+    <div class="quick-actions">
+      <a class="btn secondary" href="update-request.html?slug=${slugParam}&type=contact">+ Add a Contact</a>
+      <a class="btn secondary" href="update-request.html?slug=${slugParam}&type=note">+ Add a Note</a>
+      <a class="btn secondary" href="update-request.html?slug=${slugParam}&type=supplies">+ Request Supplies</a>
+    </div>`;
+
   container.innerHTML = `
     <h1 class="page-title">${escapeHtml(aux.name)}</h1>
     ${descriptionHtml}
+    ${quickActionsHtml}
 
     <div class="aux-section">
       <h2>Contacts</h2>
