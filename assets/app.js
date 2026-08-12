@@ -108,6 +108,30 @@ async function loadAuxiliaryDetail() {
     ? `<p class="page-subtitle">${escapeHtml(aux.description)}</p>`
     : "";
 
+  const listHtml = (items) =>
+    items && items.length
+      ? `<ul class="supply-list">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
+      : "";
+
+  const hasAssessment =
+    (aux.goals && aux.goals.length) ||
+    (aux.strengths && aux.strengths.length) ||
+    (aux.improvements && aux.improvements.length) ||
+    aux.events ||
+    aux.volunteerRecruitment;
+
+  const assessmentHtml = hasAssessment
+    ? `
+    <div class="aux-section">
+      <h2>Auxiliary Assessment</h2>
+      ${aux.goals && aux.goals.length ? `<h3>Goals for the year</h3>${listHtml(aux.goals)}` : ""}
+      ${aux.strengths && aux.strengths.length ? `<h3>Strengths</h3>${listHtml(aux.strengths)}` : ""}
+      ${aux.improvements && aux.improvements.length ? `<h3>Areas of opportunity</h3>${listHtml(aux.improvements)}` : ""}
+      ${aux.events ? `<h3>Events &amp; meetings</h3><p>${escapeHtml(aux.events)}</p>` : ""}
+      ${aux.volunteerRecruitment ? `<h3>How volunteers are recruited</h3><p>${escapeHtml(aux.volunteerRecruitment)}</p>` : ""}
+    </div>`
+    : "";
+
   container.innerHTML = `
     <h1 class="page-title">${escapeHtml(aux.name)}</h1>
     ${descriptionHtml}
@@ -131,6 +155,7 @@ async function loadAuxiliaryDetail() {
       <h2>Supplies Needed</h2>
       ${suppliesHtml}
     </div>
+    ${assessmentHtml}
 
     <div class="aux-section">
       <h2>Notes</h2>

@@ -6,8 +6,7 @@ each one, how to reach them, their standard operating procedures, and the suppli
 team needs.
 
 > **Note:** Name, mission, address, and service times below were pulled from public search results,
-> not confirmed directly by the church. Logo and brand colors are still placeholders — send over the
-> actual logo/colors when available.
+> not confirmed directly by the church.
 
 ## Structure
 
@@ -15,8 +14,9 @@ team needs.
 - `structure.html` — church org structure (placeholder, to be filled in)
 - `auxiliaries.html` — searchable directory of all auxiliaries
 - `auxiliary.html` — detail template for a single auxiliary (loaded via `?slug=...`)
-- `data/auxiliaries.json` — all auxiliary data: contacts, SOPs, supplies, notes
+- `data/auxiliaries.json` — all auxiliary data: contacts, SOPs, supplies, assessment notes
 - `assets/style.css`, `assets/app.js` — shared styling and rendering logic
+- `assets/images/logo.png` — church logo, used in the header and as favicon
 
 ## How to add or edit content
 
@@ -41,6 +41,11 @@ Each auxiliary is an object like:
     "Item needed",
     "Another item needed"
   ],
+  "goals": ["Optional: top goals for the year, from an auxiliary assessment"],
+  "strengths": ["Optional: what's working well"],
+  "improvements": ["Optional: areas of opportunity"],
+  "events": "Optional: freeform text on recurring events/meetings",
+  "volunteerRecruitment": "Optional: freeform text on how the team recruits",
   "notes": "Any freeform notes."
 }
 ```
@@ -48,6 +53,9 @@ Each auxiliary is an object like:
 - To add a new auxiliary, add a new object to the array with a unique `slug`.
 - To document an SOP or supply list, just fill in the `sop` / `supplies` arrays — the page
   will render them automatically and drop the "not documented yet" placeholder.
+- `goals`, `strengths`, `improvements`, `events`, and `volunteerRecruitment` are optional —
+  when present they render as an "Auxiliary Assessment" section on the detail page (useful for
+  capturing annual auxiliary-leader assessments/surveys). Omit them if not applicable.
 - The `auxiliaries.html` directory page and search box update automatically from this file.
 
 ## Running locally

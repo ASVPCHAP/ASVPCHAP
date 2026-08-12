@@ -9,7 +9,23 @@
     ],
     "sop": [],
     "supplies": [],
-    "notes": ""
+    "goals": [
+      "Create an inventory list",
+      "Perform quarterly inventory",
+      "Create a workflow for major emergencies that involve the medical team"
+    ],
+    "strengths": [
+      "Communication between team members",
+      "Responsiveness"
+    ],
+    "improvements": [
+      "Checking supplies quarterly",
+      "Regularly scheduled meetings",
+      "Debrief meeting after major incidents"
+    ],
+    "events": "November meeting",
+    "volunteerRecruitment": "We don't actively recruit. For meetings we receive the names of those who sign up.",
+    "notes": "2025 auxiliary assessment (submitted by Sis. Kenda Nickerson) noted no designated assistant approved at that time, working closely with Sis. Britney James instead — worth confirming current Leader/Assistant roles. Additional needs raised: a dedicated space for the medical team, and clearer information-sharing between teams (security, ushers, medical, response team) when a major incident occurs."
   },
   {
     "slug": "servers",
@@ -28,10 +44,26 @@
     "name": "Multipurpose",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Bobby Caruthers", "phone": "214-868-1897", "email": "bobby.coe@gmail.com" }
+      { "role": "Leader", "name": "Bro. Bobby Caruthers", "phone": "214-868-1897", "email": "bobby.coe@gmail.com" },
+      { "role": "Assistant", "name": "Bro. Bo", "phone": "", "email": "" },
+      { "role": "Assistant", "name": "Bro. Ladarian", "phone": "", "email": "" }
     ],
     "sop": [],
-    "supplies": [],
+    "supplies": [
+      "Commercial-grade cleaning equipment",
+      "Storage for cleaning equipment and supplies"
+    ],
+    "goals": [
+      "Support the Saints by maintaining and keeping the multipurpose room clean"
+    ],
+    "strengths": [
+      "Team is flexible and never complains"
+    ],
+    "improvements": [
+      "Commercial-grade cleaning equipment and storage"
+    ],
+    "events": "No standing events — leader touches base with the team on an as-needed basis.",
+    "volunteerRecruitment": "Face to face most of the time, or by phone.",
     "notes": ""
   },
   {
@@ -50,13 +82,29 @@
   {
     "slug": "audio",
     "name": "Audio",
-    "description": "",
+    "description": "Also referred to as \"Sound\" in the auxiliary assessment.",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Xavier Freeman", "phone": "469-650-4332", "email": "xavierfreeman101@gmail.com" }
+      { "role": "Leader", "name": "Bro. Xavier Freeman", "phone": "469-650-4332", "email": "xavierfreeman101@gmail.com" },
+      { "role": "Assistant", "name": "Bro. Corey Nickerson", "phone": "", "email": "" }
     ],
     "sop": [],
     "supplies": [],
-    "notes": ""
+    "goals": [
+      "Better sound quality",
+      "Consistent training",
+      "Everyone operating the sound board the same way"
+    ],
+    "strengths": [
+      "Communication, willingness to work, and everyone being teachable"
+    ],
+    "improvements": [
+      "Timeliness",
+      "More workers",
+      "Getting the sound to a place where livestream sound is better"
+    ],
+    "events": "Works every service; no formal sound trainings yet.",
+    "volunteerRecruitment": "Leader speaks with the individual they'd like to recruit, then talks to Bro. Devlon.",
+    "notes": "Additional need raised: better communication with leadership, and a better way to handle livestream text questions or sound-quality issues during service."
   },
   {
     "slug": "visual-production",
@@ -72,13 +120,26 @@
   {
     "slug": "ushers",
     "name": "Ushers",
-    "description": "",
+    "description": "Covers both youth and adult ushers.",
     "contacts": [
       { "role": "Leader", "name": "Sis. Esther Smith", "phone": "469-363-4007", "email": "estersmith3es@gmail.com" },
       { "role": "Assistant", "name": "Sis. Stacey McCoy", "phone": "214-770-9777", "email": "1233samples@gmail.com" }
     ],
     "sop": [],
     "supplies": [],
+    "goals": [
+      "Communication",
+      "Accountability",
+      "Having a spiritual ear while assisting God's people"
+    ],
+    "strengths": [
+      "Being visual and aware of surroundings"
+    ],
+    "improvements": [
+      "Communication & Accountability"
+    ],
+    "events": "Monthly.",
+    "volunteerRecruitment": "By announcement.",
     "notes": ""
   },
   {
@@ -160,7 +221,26 @@
     ],
     "sop": [],
     "supplies": [],
-    "notes": ""
+    "goals": [
+      "Experience an outpouring of the Holy Ghost on our youth and adults",
+      "Develop, improve, and build upon our Sunday morning Bible class",
+      "Strengthen the relationship amongst the youth of our assembly and others"
+    ],
+    "strengths": [
+      "Strong individual relationships with the kids",
+      "Sunday Morning Bible class teachers who love the word of God and the children",
+      "Kids enjoy fellowship with each other when traveling to other churches or at events"
+    ],
+    "improvements": [
+      "Internal communication and communication with the church needs development",
+      "Scheduling conflicts with other auxiliaries limit when the team can meet",
+      "Need more fellowship events for kids and the community",
+      "Need an avenue for kids to stay connected throughout the week",
+      "Need more eyes on children to make sure struggling kids aren't falling through the cracks"
+    ],
+    "events": "Youth Council Meeting every first Sunday of the month; Youth Retreat; South regional youth meeting; West Coast regional youth meeting; Shut-ins; Fun Day; Tea Party; Sunday morning Bible class.",
+    "volunteerRecruitment": "In progress: a landing page on the TLG Mesquite website with a \"Come be a part / Come serve\" button. Volunteers complete a questionnaire and background check, then are vetted for available serving areas.",
+    "notes": "Leadership is open to suggestions and improvements to process."
   },
   {
     "slug": "process-improvement",
@@ -219,5 +299,32 @@
     "sop": [],
     "supplies": [],
     "notes": ""
+  },
+  {
+    "slug": "womens-work",
+    "name": "Women's Work",
+    "description": "Not part of the original contact roster — added from the auxiliary assessment survey. Please confirm leadership contact details.",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Kenda Nickerson", "phone": "214-264-0534", "email": "conswlo06@gmail.com" },
+      { "role": "Assistant", "name": "Sis. Alyce Jones", "phone": "", "email": "" },
+      { "role": "Assistant", "name": "Sis. Sonya Clark", "phone": "214-208-0915", "email": "sonyac090@gmail.com" },
+      { "role": "Assistant", "name": "Sis. Connie Rainey", "phone": "", "email": "" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "goals": [
+      "Engage women to attend prayer at church",
+      "Work with younger women to learn how to facilitate settings",
+      "Unity among the sisters — getting to know each other"
+    ],
+    "strengths": [
+      "Allowing settings to be spirit led"
+    ],
+    "improvements": [
+      "Engaging sisters who don't attend or come late"
+    ],
+    "events": "Second Sunday settings.",
+    "volunteerRecruitment": "Text, announcements, and one-on-one conversations depending on the need.",
+    "notes": "Designated day for Women's Work group text updates is Thursdays; frequency otherwise depends on the event."
   }
 ]

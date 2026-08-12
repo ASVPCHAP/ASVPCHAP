@@ -4,9 +4,9 @@
   --color-text: #1f2420;
   --color-text-muted: #5b6058;
   --color-border: #e2ddd2;
-  --color-primary: #7a1f2b;
-  --color-primary-dark: #5c1620;
-  --color-accent: #c8a84b;
+  --color-primary: #1a1a1a;
+  --color-primary-dark: #000000;
+  --color-accent: #f07b1d;
   --radius: 10px;
   --max-width: 1080px;
 }
@@ -53,10 +53,21 @@ header.site-header .header-inner {
 }
 
 header.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   font-size: 1.25rem;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.02em;
+}
+
+header.site-header .brand img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 2px;
 }
 
 header.site-header .brand small {
@@ -255,6 +266,16 @@ table.contacts th {
   border-bottom: 2px solid var(--color-accent);
   padding-bottom: 0.4rem;
   font-size: 1.3rem;
+}
+
+.aux-section h3 {
+  color: var(--color-primary-dark);
+  font-size: 1rem;
+  margin: 1.25rem 0 0.4rem;
+}
+
+.aux-section h3:first-of-type {
+  margin-top: 1rem;
 }
 
 .empty-note {
