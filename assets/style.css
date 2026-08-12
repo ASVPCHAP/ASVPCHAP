@@ -309,3 +309,125 @@ footer.site-footer {
   color: var(--color-text-muted);
   background: var(--color-surface);
 }
+
+.cta-banner {
+  background: var(--color-primary);
+  color: #f2ece0;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-banner p {
+  margin: 0;
+}
+
+.cta-banner .btn {
+  background: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.cta-banner .btn:hover {
+  background: #d4690f;
+}
+
+.sop-form fieldset {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  padding: 1.25rem 1.5rem 1.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.sop-form legend {
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  padding: 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.sop-form fieldset.required {
+  border-color: var(--color-accent);
+  border-width: 2px;
+}
+
+.sop-form .field-hint {
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  margin: 0 0 0.6rem;
+}
+
+.sop-form .known-context {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.75rem;
+  white-space: pre-line;
+}
+
+.sop-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.sop-form .required-mark {
+  color: var(--color-accent);
+}
+
+.sop-form select,
+.sop-form input[type="text"],
+.sop-form input[type="email"],
+.sop-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font: inherit;
+  color: var(--color-text);
+  background: #fff;
+}
+
+.sop-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.sop-form .honeypot-field {
+  position: absolute;
+  left: -9999px;
+}
+
+.sop-form .submit-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-status {
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.form-status.success {
+  background: #eaf6ec;
+  border: 1px solid #a8d9b1;
+  color: #1e5a29;
+}
+
+.form-status.error {
+  background: #fbeaea;
+  border: 1px solid #e3a8a8;
+  color: #7a1f1f;
+}

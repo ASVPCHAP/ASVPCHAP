@@ -14,8 +14,10 @@ team needs.
 - `structure.html` — church org structure (placeholder, to be filled in)
 - `auxiliaries.html` — searchable directory of all auxiliaries
 - `auxiliary.html` — detail template for a single auxiliary (loaded via `?slug=...`)
+- `sop-questionnaire.html` — shared SOP questionnaire, submitted via Netlify Forms (see below)
 - `data/auxiliaries.json` — all auxiliary data: contacts, SOPs, supplies, assessment notes
 - `assets/style.css`, `assets/app.js` — shared styling and rendering logic
+- `assets/sop-form.js` — questionnaire pre-fill and submission logic
 - `assets/images/logo.png` — church logo, used in the header and as favicon
 
 ## How to add or edit content
@@ -57,6 +59,30 @@ Each auxiliary is an object like:
   when present they render as an "Auxiliary Assessment" section on the detail page (useful for
   capturing annual auxiliary-leader assessments/surveys). Omit them if not applicable.
 - The `auxiliaries.html` directory page and search box update automatically from this file.
+- `safetyGuidelinesStatus` and `emergencyProceduresStatus` are optional short strings (e.g.
+  `"Yes"`, `"No"`, `"In progress"`) used to pre-fill the Emergency & Safety section of the SOP
+  questionnaire with what's already known.
+
+## SOP questionnaire workflow
+
+`sop-questionnaire.html` is a single shared form (auxiliary leaders pick their auxiliary from a
+dropdown) covering the 10 sections a usable SOP needs: Purpose & Scope, Roles, Setup,
+During-Service Duties, Breakdown, Supplies, Emergency & Safety (required), Scheduling &
+Coverage, Training & Onboarding, and Special Circumstances.
+
+- **Pre-fill:** when a leader picks their auxiliary, `assets/sop-form.js` looks up that
+  auxiliary in `data/auxiliaries.json` and shows a "known so far" box above any field where we
+  already have partial data (goals, contacts, supplies, safety status, events, recruitment) —
+  pulled from earlier auxiliary assessments — so leaders aren't re-typing what we already know.
+- **Submission:** the form uses [Netlify Forms](https://docs.netlify.com/forms/setup/) — no
+  backend needed. Submissions land in the Netlify dashboard for the connected site
+  (Site → Forms → sop-questionnaire), where they can be reviewed and exported.
+- **Getting answers onto the site:** submissions do **not** automatically publish. Someone
+  (currently: manually, by pulling submissions and updating the JSON — the same process used to
+  fold in the original assessment PDFs) needs to review each submission and merge the answers
+  into that auxiliary's `sop` array (and `supplies`, etc.) in `data/auxiliaries.json`.
+- Each auxiliary detail page shows a "Help complete this SOP" link (pointing at
+  `sop-questionnaire.html?slug=...`) whenever its `sop` array is still empty.
 
 ## Running locally
 

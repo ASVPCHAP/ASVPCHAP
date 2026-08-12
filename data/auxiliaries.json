@@ -64,6 +64,8 @@
     ],
     "events": "No standing events — leader touches base with the team on an as-needed basis.",
     "volunteerRecruitment": "Face to face most of the time, or by phone.",
+    "safetyGuidelinesStatus": "In progress",
+    "emergencyProceduresStatus": "No",
     "notes": ""
   },
   {
@@ -104,6 +106,8 @@
     ],
     "events": "Works every service; no formal sound trainings yet.",
     "volunteerRecruitment": "Leader speaks with the individual they'd like to recruit, then talks to Bro. Devlon.",
+    "safetyGuidelinesStatus": "No",
+    "emergencyProceduresStatus": "Yes",
     "notes": "Additional need raised: better communication with leadership, and a better way to handle livestream text questions or sound-quality issues during service."
   },
   {
@@ -140,6 +144,8 @@
     ],
     "events": "Monthly.",
     "volunteerRecruitment": "By announcement.",
+    "safetyGuidelinesStatus": "In progress",
+    "emergencyProceduresStatus": "No",
     "notes": ""
   },
   {
@@ -240,6 +246,8 @@
     ],
     "events": "Youth Council Meeting every first Sunday of the month; Youth Retreat; South regional youth meeting; West Coast regional youth meeting; Shut-ins; Fun Day; Tea Party; Sunday morning Bible class.",
     "volunteerRecruitment": "In progress: a landing page on the TLG Mesquite website with a \"Come be a part / Come serve\" button. Volunteers complete a questionnaire and background check, then are vetted for available serving areas.",
+    "safetyGuidelinesStatus": "In progress",
+    "emergencyProceduresStatus": "Yes",
     "notes": "Leadership is open to suggestions and improvements to process."
   },
   {

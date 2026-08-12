@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOP Questionnaire | The Living Gospel - Mesquite</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand"><img src="assets/images/logo.png" alt="The Living Gospel Church logo">The Living Gospel - Mesquite<small>Auxiliary Handbook</small></div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="structure.html">Church Structure</a>
+      <a href="auxiliaries.html">Auxiliaries</a>
+      <a href="sop-questionnaire.html" class="active">SOP Questionnaire</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1 class="page-title">SOP Questionnaire</h1>
+  <p class="page-subtitle">
+    Help us document how your auxiliary actually runs. Pick your auxiliary below — if it's
+    already been through an assessment, we'll show what we know so far so you're not
+    repeating yourself. Answer whatever you can; you can always come back and add more later.
+  </p>
+
+  <div id="form-status"></div>
+
+  <form name="sop-questionnaire" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="sop-form" id="sop-form">
+    <input type="hidden" name="form-name" value="sop-questionnaire">
+    <p class="honeypot-field">
+      <label>Don't fill this out if you're human: <input name="bot-field"></label>
+    </p>
+
+    <fieldset>
+      <legend>Your info</legend>
+      <label for="submitter-name">Your name <span class="required-mark">*</span></label>
+      <input type="text" id="submitter-name" name="submitter-name" required>
+
+      <label for="submitter-email" style="margin-top:0.9rem;">Your email <span class="required-mark">*</span></label>
+      <input type="email" id="submitter-email" name="submitter-email" required>
+
+      <label for="auxiliary" style="margin-top:0.9rem;">Which auxiliary is this for? <span class="required-mark">*</span></label>
+      <select id="auxiliary" name="auxiliary" required>
+        <option value="">— Select your auxiliary —</option>
+        <option value="medical">Medical</option>
+        <option value="servers">Servers</option>
+        <option value="multipurpose">Multipurpose</option>
+        <option value="choir">Choir</option>
+        <option value="audio">Audio</option>
+        <option value="visual-production">Visual Production</option>
+        <option value="ushers">Ushers</option>
+        <option value="kitchen">Kitchen</option>
+        <option value="security">Security</option>
+        <option value="transportation">Transportation</option>
+        <option value="parking-lot">Parking Lot</option>
+        <option value="cleaning">Cleaning</option>
+        <option value="international-finance">International Finance</option>
+        <option value="youth-work">Youth Work</option>
+        <option value="process-improvement">Process Improvement</option>
+        <option value="finance">Finance</option>
+        <option value="greeters">Greeters</option>
+        <option value="maintenance">Maintenance</option>
+        <option value="communications">Communications</option>
+        <option value="womens-work">Women's Work</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>1. Purpose &amp; Scope</legend>
+      <p class="field-hint">In one or two sentences, what does your auxiliary do and why does it matter? What's outside your scope (handled by another auxiliary instead)?</p>
+      <div class="known-context" data-field="purpose" hidden></div>
+      <textarea name="purpose-scope"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Roles &amp; Responsibilities</legend>
+      <p class="field-hint">Who's on your team right now, and what does each person specifically handle?</p>
+      <div class="known-context" data-field="roles" hidden></div>
+      <textarea name="roles-responsibilities"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Pre-Service / Setup</legend>
+      <p class="field-hint">What has to happen before doors open or before service starts? Walk through it in order — first, second, third. What time does your team need to arrive?</p>
+      <textarea name="setup"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. During-Service Duties</legend>
+      <p class="field-hint">What does your team actually do while service is happening? What are you watching for or responding to?</p>
+      <textarea name="during-service"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Post-Service / Breakdown</legend>
+      <p class="field-hint">What has to happen after service ends before you can leave — cleanup, equipment storage, lock-up?</p>
+      <textarea name="breakdown"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>6. Supplies &amp; Equipment</legend>
+      <p class="field-hint">What do you need on hand to do this job? Where is it stored? What do you do when you're running low?</p>
+      <div class="known-context" data-field="supplies" hidden></div>
+      <textarea name="supplies-equipment"></textarea>
+    </fieldset>
+
+    <fieldset class="required">
+      <legend>7. Emergency &amp; Safety Procedures <span class="required-mark">*</span></legend>
+      <p class="field-hint">If something goes wrong during service — medical issue, security concern, fire, severe weather — what do you do? Who do you notify first? If there's no procedure yet, say so — that's useful to know too.</p>
+      <div class="known-context" data-field="safety" hidden></div>
+      <textarea name="emergency-safety" required></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>8. Scheduling &amp; Coverage</legend>
+      <p class="field-hint">How does your team know when they're serving? How do you communicate updates or handle someone needing to swap or miss a date?</p>
+      <div class="known-context" data-field="scheduling" hidden></div>
+      <textarea name="scheduling-coverage"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>9. Training &amp; Onboarding</legend>
+      <p class="field-hint">If someone brand new joined your team tomorrow, what would they need to know or do before serving on their own?</p>
+      <div class="known-context" data-field="training" hidden></div>
+      <textarea name="training-onboarding"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>10. Special Circumstances</legend>
+      <p class="field-hint">Are there specific situations unique to your auxiliary that come up regularly (communion Sundays, guest speakers, holidays, off-site events)?</p>
+      <textarea name="special-circumstances"></textarea>
+    </fieldset>
+
+    <div class="submit-row">
+      <button type="submit" class="btn">Submit</button>
+      <span id="submit-status" class="empty-note"></span>
+    </div>
+  </form>
+</main>
+
+<footer class="site-footer">
+  The Living Gospel - Mesquite Auxiliary Handbook &middot; Built for internal reference and training.
+</footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/sop-form.js"></script>
+</body>
+</html>

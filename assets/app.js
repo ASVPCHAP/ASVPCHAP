@@ -93,7 +93,8 @@ async function loadAuxiliaryDetail() {
   const sopHtml =
     aux.sop && aux.sop.length
       ? `<ol class="sop-steps">${aux.sop.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>`
-      : '<p class="empty-note">No SOP documented yet for this auxiliary.</p>';
+      : `<p class="empty-note">No SOP documented yet for this auxiliary.</p>
+         <a class="btn secondary" href="sop-questionnaire.html?slug=${encodeURIComponent(aux.slug)}">Help complete this SOP</a>`;
 
   const suppliesHtml =
     aux.supplies && aux.supplies.length
