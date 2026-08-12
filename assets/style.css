@@ -436,7 +436,7 @@ footer.site-footer {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: 1rem 0 1.75rem;
+  margin: 1rem 0 0;
 }
 
 .quick-actions .btn {

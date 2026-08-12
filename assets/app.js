@@ -94,7 +94,7 @@ async function loadAuxiliaryDetail() {
     aux.sop && aux.sop.length
       ? `<ol class="sop-steps">${aux.sop.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>`
       : `<p class="empty-note">No SOP documented yet for this auxiliary.</p>
-         <a class="btn secondary" href="sop-questionnaire.html?slug=${encodeURIComponent(aux.slug)}">Help complete this SOP</a>`;
+         <div class="quick-actions"><a class="btn secondary" href="sop-questionnaire.html?slug=${encodeURIComponent(aux.slug)}">Help complete this SOP</a></div>`;
 
   const suppliesHtml =
     aux.supplies && aux.supplies.length
@@ -134,17 +134,13 @@ async function loadAuxiliaryDetail() {
     : "";
 
   const slugParam = encodeURIComponent(aux.slug);
-  const quickActionsHtml = `
-    <div class="quick-actions">
-      <a class="btn secondary" href="update-request.html?slug=${slugParam}&type=contact">+ Add a Contact</a>
-      <a class="btn secondary" href="update-request.html?slug=${slugParam}&type=note">+ Add a Note</a>
-      <a class="btn secondary" href="update-request.html?slug=${slugParam}&type=supplies">+ Request Supplies</a>
-    </div>`;
+  const addContactBtn = `<div class="quick-actions"><a class="btn secondary" href="update-request.html?slug=${slugParam}&type=contact">+ Add a Contact</a></div>`;
+  const requestSuppliesBtn = `<div class="quick-actions"><a class="btn secondary" href="update-request.html?slug=${slugParam}&type=supplies">+ Request Supplies</a></div>`;
+  const addNoteBtn = `<div class="quick-actions"><a class="btn secondary" href="update-request.html?slug=${slugParam}&type=note">+ Add a Note</a></div>`;
 
   container.innerHTML = `
     <h1 class="page-title">${escapeHtml(aux.name)}</h1>
     ${descriptionHtml}
-    ${quickActionsHtml}
 
     <div class="aux-section">
       <h2>Contacts</h2>
@@ -154,6 +150,7 @@ async function loadAuxiliaryDetail() {
         </thead>
         <tbody>${contactsRows}</tbody>
       </table>
+      ${addContactBtn}
     </div>
 
     <div class="aux-section">
@@ -164,12 +161,14 @@ async function loadAuxiliaryDetail() {
     <div class="aux-section">
       <h2>Supplies Needed</h2>
       ${suppliesHtml}
+      ${requestSuppliesBtn}
     </div>
     ${assessmentHtml}
 
     <div class="aux-section">
       <h2>Notes</h2>
       ${notesHtml}
+      ${addNoteBtn}
     </div>
   `;
 }
