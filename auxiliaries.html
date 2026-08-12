@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auxiliaries | TLG Mesquite</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">TLG Mesquite<small>Auxiliary Handbook</small></div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="structure.html">Church Structure</a>
+      <a href="auxiliaries.html" class="active">Auxiliaries</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <h1 class="page-title">Auxiliaries</h1>
+  <p class="page-subtitle">
+    Every ministry and service team, with its current leaders and contact information.
+    Click any auxiliary to see its full contacts, SOPs, and supply list.
+  </p>
+
+  <input type="text" id="aux-search" class="aux-search" placeholder="Search auxiliaries or leader names...">
+
+  <div class="aux-grid" id="aux-grid">
+    <p class="empty-note">Loading auxiliaries...</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  TLG Mesquite Auxiliary Handbook &middot; Built for internal reference and training.
+</footer>
+
+<script src="assets/app.js"></script>
+<script>
+  loadAuxiliaryGrid();
+</script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "medical",
+    "name": "Medical",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Britney James", "phone": "901-530-8869", "email": "kendadionne@yahoo.com" },
+      { "role": "Assistant", "name": "Sis. Kenda Nickerson", "phone": "214-264-0534", "email": "conswlo06@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "servers",
+    "name": "Servers",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Debra Nelson", "phone": "214-986-8586", "email": "debranelson240@gmail.com" },
+      { "role": "Assistant", "name": "Sis. Sarena Martin", "phone": "972-834-0788", "email": "sarena.clark@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "multipurpose",
+    "name": "Multipurpose",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Bobby Caruthers", "phone": "214-868-1897", "email": "bobby.coe@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "choir",
+    "name": "Choir",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Martha Cephus", "phone": "469-233-9267", "email": "martha.cephus@yahoo.com" },
+      { "role": "Assistant", "name": "Sis. Ebony Cephus", "phone": "214-697-3774", "email": "ercephus@gmail.com" },
+      { "role": "Band", "name": "Bro. Lance Jackson", "phone": "214-683-1761", "email": "bishoplance11@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "audio",
+    "name": "Audio",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Xavier Freeman", "phone": "469-650-4332", "email": "xavierfreeman101@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "visual-production",
+    "name": "Visual Production",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Nyree Reed", "phone": "512-589-7844", "email": "nyreecreed@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "ushers",
+    "name": "Ushers",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Esther Smith", "phone": "469-363-4007", "email": "estersmith3es@gmail.com" },
+      { "role": "Assistant", "name": "Sis. Stacey McCoy", "phone": "214-770-9777", "email": "1233samples@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "kitchen",
+    "name": "Kitchen",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Kyron Washington", "phone": "214-926-1255", "email": "kyronwash@gmail.com" },
+      { "role": "Assistant", "name": "Sis. Tanya Jones", "phone": "214-906-6968", "email": "tanjo3160@yahoo.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "security",
+    "name": "Security",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Kevin Reed", "phone": "469-271-7266", "email": "quik409@gmail.com" },
+      { "role": "Assistant", "name": "Bro. Ello Castille", "phone": "214-455-5916", "email": "ellerson.castille@yahoo.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "transportation",
+    "name": "Transportation",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Jim Smith", "phone": "", "email": "" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "parking-lot",
+    "name": "Parking Lot",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. James Williams", "phone": "972-890-2725", "email": "jameswill35@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "cleaning",
+    "name": "Cleaning",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. James Williams", "phone": "972-890-2725", "email": "jameswill35@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "international-finance",
+    "name": "International Finance",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Richard Harris", "phone": "562-882-2833", "email": "richardharris_324@hotmail.com" },
+      { "role": "Assistant", "name": "Sis. Tiffany Linwood", "phone": "214-683-6504", "email": "drtiffanylinwood@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "youth-work",
+    "name": "Youth Work",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Marlin Allen", "phone": "424-232-6242", "email": "marlinghap@gmail.com" },
+      { "role": "Assistant", "name": "Bro. Anthony Chapman", "phone": "806-433-2461", "email": "asvpchap@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "process-improvement",
+    "name": "Process Improvement",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Anthony Chapman", "phone": "806-433-2461", "email": "asvpchap@gmail.com" },
+      { "role": "Assistant", "name": "Sis. Ebony Cephus", "phone": "214-697-3774", "email": "ercephus@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "finance",
+    "name": "Finance",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Sherri Turner", "phone": "214-636-0758", "email": "slmturner7@att.net" },
+      { "role": "Assistant", "name": "Sis. Ja'Deion Freeman", "phone": "985-860-4773", "email": "jadeion@me.com" },
+      { "role": "Assistant", "name": "Sis. Constance Cephus", "phone": "972-689-3728", "email": "" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "greeters",
+    "name": "Greeters",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Elvie Washington", "phone": "504-430-5319", "email": "elviewash@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "maintenance",
+    "name": "Maintenance",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Bro. Dennis Bryant", "phone": "214-730-9119", "email": "dennisbry66@yahoo.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  },
+  {
+    "slug": "communications",
+    "name": "Communications",
+    "description": "",
+    "contacts": [
+      { "role": "Leader", "name": "Sis. Sonya Clark", "phone": "214-208-0915", "email": "sonyac090@gmail.com" }
+    ],
+    "sop": [],
+    "supplies": [],
+    "notes": ""
+  }
+]
