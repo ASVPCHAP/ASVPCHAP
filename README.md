@@ -76,7 +76,10 @@ Coverage, Training & Onboarding, and Special Circumstances.
   pulled from earlier auxiliary assessments — so leaders aren't re-typing what we already know.
 - **Submission:** the form uses [Netlify Forms](https://docs.netlify.com/forms/setup/) — no
   backend needed. Submissions land in the Netlify dashboard for the connected site
-  (Site → Forms → sop-questionnaire), where they can be reviewed and exported.
+  (Site → Forms → sop-questionnaire), where they can be reviewed and exported. Forms
+  processing must be enabled on the Netlify site (Site configuration → Forms) for
+  submissions to be captured — a deploy that lands before Forms is turned on won't
+  register the form, so trigger a fresh deploy after enabling it.
 - **Getting answers onto the site:** submissions do **not** automatically publish. Someone
   (currently: manually, by pulling submissions and updating the JSON — the same process used to
   fold in the original assessment PDFs) needs to review each submission and merge the answers
