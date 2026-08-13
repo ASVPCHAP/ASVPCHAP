@@ -461,3 +461,43 @@ footer.site-footer {
 .radio-option input {
   width: auto;
 }
+
+.aux-icon-badge {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.aux-icon-badge.large {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 0;
+}
+
+.aux-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-accent);
+}
+
+.aux-icon-badge.large .aux-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.aux-detail-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.aux-detail-heading .page-title {
+  margin-bottom: 0;
+}

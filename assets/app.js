@@ -38,6 +38,7 @@ async function loadAuxiliaryGrid() {
       .map(
         (aux) => `
         <a class="aux-card" href="auxiliary.html?slug=${encodeURIComponent(aux.slug)}">
+          <div class="aux-icon-badge">${typeof auxIconSvg === "function" ? auxIconSvg(aux.slug) : ""}</div>
           <h3>${escapeHtml(aux.name)}</h3>
           <p class="leader">${escapeHtml(contactsSummary(aux))}</p>
         </a>`
@@ -145,8 +146,16 @@ async function loadAuxiliaryDetail() {
   const requestSuppliesBtn = `<div class="quick-actions"><a class="btn secondary" href="update-request.html?slug=${slugParam}&type=supplies">+ Request Supplies</a></div>`;
   const addNoteBtn = `<div class="quick-actions"><a class="btn secondary" href="update-request.html?slug=${slugParam}&type=note">+ Add a Note</a></div>`;
 
+  const detailIconHtml =
+    typeof auxIconSvg === "function"
+      ? `<div class="aux-icon-badge large">${auxIconSvg(aux.slug)}</div>`
+      : "";
+
   container.innerHTML = `
-    <h1 class="page-title">${escapeHtml(aux.name)}</h1>
+    <div class="aux-detail-heading">
+      ${detailIconHtml}
+      <h1 class="page-title">${escapeHtml(aux.name)}</h1>
+    </div>
     ${descriptionHtml}
 
     <div class="aux-section">
