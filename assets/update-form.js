@@ -11,6 +11,7 @@ function initUpdateForm() {
     contact: document.getElementById("contact-name"),
     note: form.querySelector('textarea[name="note-text"]'),
     supplies: document.getElementById("supplies-items"),
+    "sop-details": document.getElementById("sop-details-text"),
   };
 
   function showSection(type) {
@@ -37,7 +38,7 @@ function initUpdateForm() {
     backLink.innerHTML = `<a href="auxiliary.html?slug=${encodeURIComponent(slug)}">&larr; Back to auxiliary</a>`;
   }
 
-  if (type && ["contact", "note", "supplies"].includes(type)) {
+  if (type && ["contact", "note", "supplies", "sop-details"].includes(type)) {
     const radio = form.querySelector(`input[name="request-type"][value="${type}"]`);
     if (radio) {
       radio.checked = true;

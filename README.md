@@ -39,8 +39,8 @@ Each auxiliary is an object like:
     { "role": "Leader", "name": "Bro. Kyron Washington", "phone": "214-926-1255", "email": "kyronwash@gmail.com" }
   ],
   "sop": [
-    "Step one of the procedure.",
-    "Step two of the procedure."
+    "A plain step works fine,",
+    { "label": "Pre-Service", "text": "A labeled step renders as \"Pre-Service: A labeled step renders...\" — use this for grouping steps by phase (Pre-Service, During Service, Safety, Scheduling, etc.), which is the format most auxiliaries currently use." }
   ],
   "supplies": [
     "Item needed",
@@ -57,7 +57,9 @@ Each auxiliary is an object like:
 
 - To add a new auxiliary, add a new object to the array with a unique `slug`.
 - To document an SOP or supply list, just fill in the `sop` / `supplies` arrays — the page
-  will render them automatically and drop the "not documented yet" placeholder.
+  will render them automatically and drop the "not documented yet" placeholder. `sop` items
+  can be plain strings or `{ "label": "...", "text": "..." }` objects for grouped/labeled
+  steps (e.g. "Pre-Service", "Safety") — the labeled format is what most auxiliaries use.
 - `goals`, `strengths`, `improvements`, `events`, and `volunteerRecruitment` are optional —
   when present they render as an "Auxiliary Assessment" section on the detail page (useful for
   capturing annual auxiliary-leader assessments/surveys). Omit them if not applicable.
@@ -92,17 +94,43 @@ Coverage, Training & Onboarding, and Special Circumstances.
 
 ## Update-request workflow
 
-Every auxiliary detail page has three "Quick Actions" buttons — **Add a Contact**, **Add a
-Note**, **Request Supplies** — linking to `update-request.html?slug=<aux>&type=<contact|note|supplies>`.
-That single shared form pre-selects the auxiliary and the request type, and
-`assets/update-form.js` shows only the relevant fields for that type.
+Every auxiliary detail page has "Quick Actions" buttons — **Add a Contact**, **Add a Note**,
+**Request Supplies**, and (only shown once an SOP exists) **Add SOP Notes** — linking to
+`update-request.html?slug=<aux>&type=<contact|note|supplies|sop-details>`. That single shared
+form pre-selects the auxiliary and the request type, and `assets/update-form.js` shows only
+the relevant fields for that type.
 
 - Same mechanics as the SOP questionnaire: Netlify Forms (form name `auxiliary-update`), no
   backend, submissions land in the Netlify dashboard under Forms.
-- Also **not** auto-published — review submissions and manually apply them: a contact request
-  gets added to that auxiliary's `contacts` array, a note gets folded into `notes`, a supply
-  request gets added to `supplies` (or just tracked/actioned outside the site, since it's a
-  request rather than a documented fact).
+- Also **not** auto-published — review submissions and manually apply them.
+
+### Review & merge process
+
+Nothing submitted through any of these forms (SOP questionnaire or update-request) publishes
+automatically — the point of that gap is to keep the site coherent instead of turning into a
+pile of disconnected notes. The process:
+
+1. **Check for new submissions.** Netlify dashboard → Site → Forms → pick the form
+   (`sop-questionnaire` or `auxiliary-update`) → review new entries. (Or ask whoever's
+   driving the site to pull them via the Netlify API.)
+2. **Triage by type:**
+   - *Contact* → add/update the entry in that auxiliary's `contacts` array.
+   - *Note* → fold into `notes` (merge with what's there rather than just appending, if it
+     overlaps with an existing note).
+   - *Supplies* → add to `supplies`, or action it directly (order/source the item) if it's
+     urgent — the site entry is a record, not a ticketing system.
+   - *SOP details* → **do not just append the raw submission as a new bullet.** Read it
+     against the existing `sop` array for that auxiliary, find the step it belongs with (the
+     submitter's "which part of the SOP" answer is a hint, not the final word), and rewrite
+     that step's `text` to incorporate the new detail in the same voice as the rest of the
+     SOP — or add a new labeled step if it genuinely doesn't fit anywhere existing. The goal
+     is that a leader reading the finished SOP can't tell which parts came from the original
+     transcript versus a later submission.
+3. **Preview before publishing.** For anything beyond a trivial one-line fix, build the
+   change locally (`python3 -m http.server 8000`), check the rendered page looks right, then
+   commit and push. Since Netlify is typically configured to watch this repo's branch as its
+   production deploy, a push goes live — there's no separate staging step, so review before
+   pushing, not after.
 
 ## Running locally
 

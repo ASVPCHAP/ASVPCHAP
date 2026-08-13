@@ -24,8 +24,9 @@
   <p class="breadcrumb" id="back-link"><a href="auxiliaries.html">&larr; All Auxiliaries</a></p>
   <h1 class="page-title">Update Request</h1>
   <p class="page-subtitle">
-    Add a contact, leave a note, or request supplies for an auxiliary. This doesn't publish to
-    the site immediately — it's reviewed and folded in, same as the SOP questionnaire.
+    Add a contact, leave a note, request supplies, or add detail to an existing SOP. This
+    doesn't publish to the site immediately — it's reviewed and folded in, same as the SOP
+    questionnaire.
   </p>
 
   <div id="form-status"></div>
@@ -76,7 +77,18 @@
         <label class="radio-option"><input type="radio" name="request-type" value="contact" required> Add a contact</label>
         <label class="radio-option"><input type="radio" name="request-type" value="note" required> Add a note</label>
         <label class="radio-option"><input type="radio" name="request-type" value="supplies" required> Request supplies</label>
+        <label class="radio-option"><input type="radio" name="request-type" value="sop-details" required> Add SOP details</label>
       </div>
+    </fieldset>
+
+    <fieldset data-section="sop-details" hidden>
+      <legend>Add SOP Details</legend>
+      <p class="field-hint">Your auxiliary already has an SOP documented. Use this to add detail, correct something, or cover a situation it doesn't address yet — not to replace what's already there.</p>
+      <label for="sop-details-section">Which part of the SOP does this relate to? (e.g. Pre-Service, Safety, Onboarding)</label>
+      <input type="text" id="sop-details-section" name="sop-details-section">
+
+      <label for="sop-details-text" style="margin-top:0.9rem;">What would you like to add? <span class="required-mark">*</span></label>
+      <textarea id="sop-details-text" name="sop-details-text"></textarea>
     </fieldset>
 
     <fieldset data-section="contact" hidden>

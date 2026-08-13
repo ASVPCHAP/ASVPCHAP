@@ -98,7 +98,8 @@ async function loadAuxiliaryDetail() {
 
   const sopHtml =
     aux.sop && aux.sop.length
-      ? `<ol class="sop-steps">${aux.sop.map(renderSopItem).join("")}</ol>`
+      ? `<ol class="sop-steps">${aux.sop.map(renderSopItem).join("")}</ol>
+         <div class="quick-actions"><a class="btn secondary" href="update-request.html?slug=${encodeURIComponent(aux.slug)}&type=sop-details">+ Add SOP Notes</a></div>`
       : `<p class="empty-note">No SOP documented yet for this auxiliary.</p>
          <div class="quick-actions"><a class="btn secondary" href="sop-questionnaire.html?slug=${encodeURIComponent(aux.slug)}">Help complete this SOP</a></div>`;
 
