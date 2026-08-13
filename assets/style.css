@@ -501,3 +501,58 @@ footer.site-footer {
 .aux-detail-heading .page-title {
   margin-bottom: 0;
 }
+
+.leader-notice {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 5px solid var(--color-accent);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.leader-notice-tag {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.leader-notice h2 {
+  margin: 0 0 0.75rem;
+  color: var(--color-primary-dark);
+  font-size: 1.3rem;
+}
+
+.leader-notice > p {
+  color: var(--color-text-muted);
+  margin: 0 0 1rem;
+}
+
+.leader-notice ol {
+  padding-left: 1.25rem;
+  margin: 0 0 1rem;
+}
+
+.leader-notice ol li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.leader-notice ol li:last-child {
+  margin-bottom: 0;
+}
+
+.leader-notice-footnote {
+  font-size: 0.85rem;
+  font-style: italic;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1rem;
+  margin-top: 1rem !important;
+}
