@@ -90,9 +90,15 @@ async function loadAuxiliaryDetail() {
     )
     .join("");
 
+  const renderSopItem = (item) => {
+    if (typeof item === "string") return `<li>${escapeHtml(item)}</li>`;
+    const label = item.label ? `<strong>${escapeHtml(item.label)}:</strong> ` : "";
+    return `<li>${label}${escapeHtml(item.text || "")}</li>`;
+  };
+
   const sopHtml =
     aux.sop && aux.sop.length
-      ? `<ol class="sop-steps">${aux.sop.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol>`
+      ? `<ol class="sop-steps">${aux.sop.map(renderSopItem).join("")}</ol>`
       : `<p class="empty-note">No SOP documented yet for this auxiliary.</p>
          <div class="quick-actions"><a class="btn secondary" href="sop-questionnaire.html?slug=${encodeURIComponent(aux.slug)}">Help complete this SOP</a></div>`;
 

@@ -2,12 +2,39 @@
   {
     "slug": "medical",
     "name": "Medical",
-    "description": "",
+    "description": "Ensure health and safety of saints at all times — before, during, and after service.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Britney James", "phone": "901-530-8869", "email": "kendadionne@yahoo.com" },
-      { "role": "Assistant", "name": "Sis. Kenda Nickerson", "phone": "214-264-0534", "email": "conswlo06@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Britney James",
+        "phone": "901-530-8869",
+        "email": "kendadionne@yahoo.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Kenda Nickerson",
+        "phone": "214-264-0534",
+        "email": "conswlo06@gmail.com"
+      }
     ],
-    "sop": [],
+    "sop": [
+      {
+        "label": "Response",
+        "text": "Dispatch to a saint in need, or a saint can approach the medical team directly. Team facilitates until paramedics are called if needed."
+      },
+      {
+        "label": "Coverage",
+        "text": "This is a 24/7 auxiliary — active and vigilant whenever anyone is at the church. Multiple stations, including one by the security booth, plus designated spaces during meetings."
+      },
+      {
+        "label": "Scheduling",
+        "text": "Sis. Britney James and Sis. Kenda Nickerson."
+      },
+      {
+        "label": "Onboarding",
+        "text": "Sis. Britney James. Team members are required to have health-professional experience."
+      }
+    ],
     "supplies": [],
     "goals": [
       "Create an inventory list",
@@ -25,33 +52,84 @@
     ],
     "events": "November meeting",
     "volunteerRecruitment": "We don't actively recruit. For meetings we receive the names of those who sign up.",
-    "notes": "Confirmed: Sis. Britney James leads Medical, with Sis. Kenda Nickerson as assistant. Additional needs raised in the auxiliary assessment: a dedicated space for the medical team, and clearer information-sharing between teams (security, ushers, medical, response team) when a major incident occurs."
+    "notes": "Confirmed: Sis. Britney James leads Medical, with Sis. Kenda Nickerson as assistant. Additional needs raised in the auxiliary assessment: a dedicated space for the medical team, and clearer information-sharing between teams (security, ushers, medical, response team) when a major incident occurs. Refer to Sis. Kenda Nickerson for the supply/inventory list."
   },
   {
     "slug": "servers",
     "name": "Servers",
-    "description": "",
+    "description": "Table/food setup support for events.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Debra Nelson", "phone": "214-986-8586", "email": "debranelson240@gmail.com" },
-      { "role": "Assistant", "name": "Sis. Sarena Martin", "phone": "972-834-0788", "email": "sarena.clark@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Debra Nelson",
+        "phone": "214-986-8586",
+        "email": "debranelson240@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Sarena Martin",
+        "phone": "972-834-0788",
+        "email": "sarena.clark@gmail.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
-    "notes": ""
+    "sop": [
+      {
+        "label": "Duties",
+        "text": "Setup to make sure tables are out, food warmers are actively engaged (during lunch/dinner events)."
+      }
+    ],
+    "supplies": [
+      "Gloves",
+      "Cloths",
+      "Utensils"
+    ],
+    "notes": "Managed by Sis. Debra Nelson, who builds a team in advance so everyone knows their role/location."
   },
   {
     "slug": "multipurpose",
     "name": "Multipurpose",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Bobby Caruthers", "phone": "214-868-1897", "email": "bobby.coe@gmail.com" },
-      { "role": "Assistant", "name": "Bro. Bo", "phone": "", "email": "" },
-      { "role": "Assistant", "name": "Bro. Ladarian", "phone": "", "email": "" }
+      {
+        "role": "Leader",
+        "name": "Bro. Bobby Caruthers",
+        "phone": "214-868-1897",
+        "email": "bobby.coe@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Bro. Bo",
+        "phone": "",
+        "email": ""
+      },
+      {
+        "role": "Assistant",
+        "name": "Bro. Ladarian",
+        "phone": "",
+        "email": ""
+      }
     ],
-    "sop": [],
+    "sop": [
+      {
+        "label": "Pre-Service",
+        "text": "Team activates before meetings and on a monthly-to-quarterly basis, meeting independently to maintain and clean the room (mopping, sweeping, sanitizing floors and tables)."
+      },
+      {
+        "label": "During Service",
+        "text": "No active role unless the room is being used for something specific."
+      },
+      {
+        "label": "Post-Service",
+        "text": "Team is dispatched to clean up after service. For events, funerals, or major meetings, a team cleans the room both before and after."
+      },
+      {
+        "label": "Safety",
+        "text": "Lean on the medical and security teams."
+      }
+    ],
     "supplies": [
       "Commercial-grade cleaning equipment",
-      "Storage for cleaning equipment and supplies"
+      "Storage for cleaning equipment and supplies (utility closet at the back of the building)"
     ],
     "goals": [
       "Support the Saints by maintaining and keeping the multipurpose room clean"
@@ -66,16 +144,31 @@
     "volunteerRecruitment": "Face to face most of the time, or by phone.",
     "safetyGuidelinesStatus": "In progress",
     "emergencyProceduresStatus": "No",
-    "notes": ""
+    "notes": "Never use kitchen supplies for the multipurpose room — cross-contamination is a major concern."
   },
   {
     "slug": "choir",
     "name": "Choir",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Martha Cephus", "phone": "469-233-9267", "email": "martha.cephus@yahoo.com" },
-      { "role": "Assistant", "name": "Sis. Ebony Cephus", "phone": "214-697-3774", "email": "ercephus@gmail.com" },
-      { "role": "Band", "name": "Bro. Lance Jackson", "phone": "214-683-1761", "email": "bishoplance11@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Martha Cephus",
+        "phone": "469-233-9267",
+        "email": "martha.cephus@yahoo.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Ebony Cephus",
+        "phone": "214-697-3774",
+        "email": "ercephus@gmail.com"
+      },
+      {
+        "role": "Band",
+        "name": "Bro. Lance Jackson",
+        "phone": "214-683-1761",
+        "email": "bishoplance11@gmail.com"
+      }
     ],
     "sop": [],
     "supplies": [],
@@ -86,11 +179,40 @@
     "name": "Audio",
     "description": "Also referred to as \"Sound\" in the auxiliary assessment.",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Xavier Freeman", "phone": "469-650-4332", "email": "xavierfreeman101@gmail.com" },
-      { "role": "Assistant", "name": "Bro. Corey Nickerson", "phone": "", "email": "" }
+      {
+        "role": "Leader",
+        "name": "Bro. Xavier Freeman",
+        "phone": "469-650-4332",
+        "email": "xavierfreeman101@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Bro. Corey Nickerson",
+        "phone": "",
+        "email": ""
+      }
     ],
-    "sop": [],
-    "supplies": [],
+    "sop": [
+      {
+        "label": "Pre-Service",
+        "text": "Team arrives 10 minutes early to turn off projectors and turn on cameras. Setup instructions are laminated to the back of the AV desk near the first computer."
+      },
+      {
+        "label": "Scheduling",
+        "text": "Sis. Nyree Reed builds the schedule a month in advance."
+      },
+      {
+        "label": "During/Post-Service",
+        "text": "Sound equipment is set up and, afterward, everything is recharged and reset for the next service."
+      },
+      {
+        "label": "Onboarding",
+        "text": "Handled by the team."
+      }
+    ],
+    "supplies": [
+      "Server switches"
+    ],
     "goals": [
       "Better sound quality",
       "Consistent training",
@@ -108,29 +230,91 @@
     "volunteerRecruitment": "Leader speaks with the individual they'd like to recruit, then talks to Bro. Devlon.",
     "safetyGuidelinesStatus": "No",
     "emergencyProceduresStatus": "Yes",
-    "notes": "Additional need raised: better communication with leadership, and a better way to handle livestream text questions or sound-quality issues during service."
+    "notes": "Additional need raised: better communication with leadership, and a better way to handle livestream text questions or sound-quality issues during service. Described in the SOP transcript as a combined \"Production (Audio/Visual)\" team — this content applies to both Audio and Visual Production."
   },
   {
     "slug": "visual-production",
     "name": "Visual Production",
-    "description": "",
+    "description": "Facilitate hosting of sermons/services.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Nyree Reed", "phone": "512-589-7844", "email": "nyreecreed@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Nyree Reed",
+        "phone": "512-589-7844",
+        "email": "nyreecreed@gmail.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
-    "notes": ""
+    "sop": [
+      {
+        "label": "Pre-Service",
+        "text": "Team arrives 10 minutes early to turn off projectors and turn on cameras. Setup instructions are laminated to the back of the AV desk near the first computer."
+      },
+      {
+        "label": "Scheduling",
+        "text": "Sis. Nyree Reed builds the schedule a month in advance."
+      },
+      {
+        "label": "During/Post-Service",
+        "text": "Sound equipment is set up and, afterward, everything is recharged and reset for the next service."
+      },
+      {
+        "label": "Onboarding",
+        "text": "Handled by the team."
+      }
+    ],
+    "supplies": [
+      "Server switches"
+    ],
+    "notes": "Described in the SOP transcript as a combined \"Production (Audio/Visual)\" team — this content applies to both Audio and Visual Production."
   },
   {
     "slug": "ushers",
     "name": "Ushers",
     "description": "Covers both youth and adult ushers.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Esther Smith", "phone": "469-363-4007", "email": "estersmith3es@gmail.com" },
-      { "role": "Assistant", "name": "Sis. Stacey McCoy", "phone": "214-770-9777", "email": "1233samples@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Esther Smith",
+        "phone": "469-363-4007",
+        "email": "estersmith3es@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Stacey McCoy",
+        "phone": "214-770-9777",
+        "email": "1233samples@gmail.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
+    "sop": [
+      {
+        "label": "Pre-Service Setup",
+        "text": "Arrive 15–20 minutes before service to get in position. Ensure gloves, sanitizer, envelopes, and bands are stocked in the sanctuary. Tissues available for saints who need them. Open doors."
+      },
+      {
+        "label": "During Service",
+        "text": "Handle basic needs as they arise."
+      },
+      {
+        "label": "Post-Service",
+        "text": "Minimal — no significant breakdown tasks."
+      },
+      {
+        "label": "Safety",
+        "text": "Lean on security/medical for any incidents."
+      },
+      {
+        "label": "Onboarding",
+        "text": "New ushers selected by Sis. Esther Smith and leadership based on fit."
+      }
+    ],
+    "supplies": [
+      "Gloves",
+      "Sanitizer",
+      "Towels",
+      "Badges",
+      "Envelopes and offering bands (stocked in sanctuary)",
+      "Tissues"
+    ],
     "goals": [
       "Communication",
       "Accountability",
@@ -151,13 +335,52 @@
   {
     "slug": "kitchen",
     "name": "Kitchen",
-    "description": "",
+    "description": "Handles cooking/food service for all church events (meetings, youth events, witnessing events, etc.). When outside catering is used, someone from the kitchen team still monitors the space.",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Kyron Washington", "phone": "214-926-1255", "email": "kyronwash@gmail.com" },
-      { "role": "Assistant", "name": "Sis. Tanya Jones", "phone": "214-906-6968", "email": "tanjo3160@yahoo.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. Kyron Washington",
+        "phone": "214-926-1255",
+        "email": "kyronwash@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Tanya Jones",
+        "phone": "214-906-6968",
+        "email": "tanjo3160@yahoo.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
+    "sop": [
+      {
+        "label": "Pre-Service",
+        "text": "The entire kitchen team arrives ahead of time to prep meals and ingredients. Coordinates with Bro. Kyron Washington and Sis. Tanya Jones on what's needed; works with Sis. Sherri Turner on budget/ordering."
+      },
+      {
+        "label": "During Service",
+        "text": "Not required unless meals are being prepared for a meeting (lunch/dinner around meetings or large events)."
+      },
+      {
+        "label": "Post-Service Cleanup",
+        "text": "Bro. Anthony Chapman, Bro. Marlin Allen, and Bro. Javier lead cleanup — recruiting team members to wash dishes, put away plates/ingredients, and mop the floor."
+      },
+      {
+        "label": "Safety",
+        "text": "Report issues to the ministry, medical team, or security team."
+      },
+      {
+        "label": "Scheduling",
+        "text": "Sis. Tanya Jones and Bro. Kyron Washington."
+      },
+      {
+        "label": "Onboarding",
+        "text": "Entire kitchen staff helps train new members on policies and operations."
+      }
+    ],
+    "supplies": [
+      "Cleaning supplies",
+      "Ingredients",
+      "All kitchen appliances"
+    ],
     "notes": ""
   },
   {
@@ -165,8 +388,18 @@
     "name": "Security",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Kevin Reed", "phone": "469-271-7266", "email": "quik409@gmail.com" },
-      { "role": "Assistant", "name": "Bro. Ello Castille", "phone": "214-455-5916", "email": "ellerson.castille@yahoo.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. Kevin Reed",
+        "phone": "469-271-7266",
+        "email": "quik409@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Bro. Ello Castille",
+        "phone": "214-455-5916",
+        "email": "ellerson.castille@yahoo.com"
+      }
     ],
     "sop": [],
     "supplies": [],
@@ -175,23 +408,72 @@
   {
     "slug": "transportation",
     "name": "Transportation",
-    "description": "",
+    "description": "Move saints between locations during meetings — parking lot to church, using golf carts or a van. During large events, coordinates with finance leads on how many carts are needed based on meeting size.",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Jim Smith", "phone": "", "email": "" }
+      {
+        "role": "Leader",
+        "name": "Bro. Jim Smith",
+        "phone": "",
+        "email": ""
+      }
     ],
-    "sop": [],
-    "supplies": [],
+    "sop": [
+      {
+        "label": "Airport Runs",
+        "text": "Team ready 2–4 hours before service for pickups; drop-offs 1–2 hours after service ends."
+      },
+      {
+        "label": "During Service",
+        "text": "Minimal, except if a saint needs to catch a flight mid-service."
+      },
+      {
+        "label": "Duties",
+        "text": "Drop saints at cars via golf cart/van, transport to the Marriott (across the street), and airport drop-offs."
+      },
+      {
+        "label": "Safety",
+        "text": "Lean on medical team for emergencies."
+      },
+      {
+        "label": "Onboarding",
+        "text": "Handled by Bro. Jim Smith."
+      }
+    ],
+    "supplies": [
+      "Locally rented 15-passenger van",
+      "Golf carts"
+    ],
     "notes": ""
   },
   {
     "slug": "parking-lot",
     "name": "Parking Lot",
-    "description": "",
+    "description": "Ensure saints reach the facility safely — direct traffic, park cars.",
     "contacts": [
-      { "role": "Leader", "name": "Bro. James Williams", "phone": "972-890-2725", "email": "jameswill35@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. James Williams",
+        "phone": "972-890-2725",
+        "email": "jameswill35@gmail.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
+    "sop": [
+      {
+        "label": "Service Breakdown",
+        "text": "Drop-off/pick-up facilitation on arrival and departure; manage traffic flow as people leave."
+      },
+      {
+        "label": "Safety",
+        "text": "Lean on medical team for health emergencies."
+      },
+      {
+        "label": "Scheduling",
+        "text": "Bro. James Williams, who trains alongside the parking lot staff and coordinates with the transportation team."
+      }
+    ],
+    "supplies": [
+      "Walkie-talkies (comms system)"
+    ],
     "notes": ""
   },
   {
@@ -199,19 +481,56 @@
     "name": "Cleaning",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. James Williams", "phone": "972-890-2725", "email": "jameswill35@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. James Williams",
+        "phone": "972-890-2725",
+        "email": "jameswill35@gmail.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
-    "notes": ""
+    "sop": [
+      {
+        "label": "Structure",
+        "text": "There are 5 cleaning teams, each handling a designated week for cleaning the church."
+      },
+      {
+        "label": "Duties",
+        "text": "Assigned team cleans on Fridays and Sundays — both after service and between services."
+      },
+      {
+        "label": "Training",
+        "text": "Teams train and onboard new members."
+      },
+      {
+        "label": "Key Holders",
+        "text": "Bro. James Williams, Bro. Kyron Washington, Bro. Kevin Reed, Bro. Dennis Bryant, Bro. LaDaryon."
+      }
+    ],
+    "supplies": [
+      "Vacuum",
+      "Mops",
+      "Dusters",
+      "Sanitization supplies (stocked in the facility cabinet at the front of the church)"
+    ],
+    "notes": "Anyone who notices an issue should notify someone within the church or a team lead."
   },
   {
     "slug": "international-finance",
     "name": "International Finance",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Richard Harris", "phone": "562-882-2833", "email": "richardharris_324@hotmail.com" },
-      { "role": "Assistant", "name": "Sis. Tiffany Linwood", "phone": "214-683-6504", "email": "drtiffanylinwood@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. Richard Harris",
+        "phone": "562-882-2833",
+        "email": "richardharris_324@hotmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Tiffany Linwood",
+        "phone": "214-683-6504",
+        "email": "drtiffanylinwood@gmail.com"
+      }
     ],
     "sop": [],
     "supplies": [],
@@ -222,11 +541,42 @@
     "name": "Youth Work",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Marlin Allen", "phone": "424-232-6242", "email": "marlinghap@gmail.com" },
-      { "role": "Assistant", "name": "Bro. Anthony Chapman", "phone": "806-433-2461", "email": "asvpchap@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. Marlin Allen",
+        "phone": "424-232-6242",
+        "email": "marlinghap@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Bro. Anthony Chapman",
+        "phone": "806-433-2461",
+        "email": "asvpchap@gmail.com"
+      }
     ],
-    "sop": [],
-    "supplies": [],
+    "sop": [
+      {
+        "label": "Pre-Event",
+        "text": "Team arrives 1–2 hours ahead to set up."
+      },
+      {
+        "label": "During Service",
+        "text": "No active role."
+      },
+      {
+        "label": "Post-Service",
+        "text": "Helps clean up after youth events."
+      },
+      {
+        "label": "Leadership",
+        "text": "Bro. Marlin Allen and Bro. Anthony Chapman (youth council) recruit new members and plan/facilitate events — including Bible class, Youth Sundays, and youth retreats."
+      }
+    ],
+    "supplies": [
+      "Whiteboard",
+      "Markers",
+      "Event-specific props"
+    ],
     "goals": [
       "Experience an outpouring of the Holy Ghost on our youth and adults",
       "Develop, improve, and build upon our Sunday morning Bible class",
@@ -255,8 +605,18 @@
     "name": "Process Improvement",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Anthony Chapman", "phone": "806-433-2461", "email": "asvpchap@gmail.com" },
-      { "role": "Assistant", "name": "Sis. Ebony Cephus", "phone": "214-697-3774", "email": "ercephus@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. Anthony Chapman",
+        "phone": "806-433-2461",
+        "email": "asvpchap@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Ebony Cephus",
+        "phone": "214-697-3774",
+        "email": "ercephus@gmail.com"
+      }
     ],
     "sop": [],
     "supplies": [],
@@ -265,13 +625,41 @@
   {
     "slug": "finance",
     "name": "Finance",
-    "description": "",
+    "description": "Ensure the church operates efficiently with the resources it's given.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Sherri Turner", "phone": "214-636-0758", "email": "slmturner7@att.net" },
-      { "role": "Assistant", "name": "Sis. Ja'Deion Freeman", "phone": "985-860-4773", "email": "jadeion@me.com" },
-      { "role": "Assistant", "name": "Sis. Constance Cephus", "phone": "972-689-3728", "email": "" }
+      {
+        "role": "Leader",
+        "name": "Sis. Sherri Turner",
+        "phone": "214-636-0758",
+        "email": "slmturner7@att.net"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Ja'Deion Freeman",
+        "phone": "985-860-4773",
+        "email": "jadeion@me.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Constance Cephus",
+        "phone": "972-689-3728",
+        "email": ""
+      }
     ],
-    "sop": [],
+    "sop": [
+      {
+        "label": "Lead",
+        "text": "Sis. Sherri Turner, with assistants standing by for the offering pre-service."
+      },
+      {
+        "label": "Duties",
+        "text": "Handle needs as they arise, including planning and budgeting for all finance-related matters."
+      },
+      {
+        "label": "Onboarding/Training",
+        "text": "Sis. Sherri Turner."
+      }
+    ],
     "supplies": [],
     "notes": ""
   },
@@ -280,7 +668,12 @@
     "name": "Greeters",
     "description": "",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Elvie Washington", "phone": "504-430-5319", "email": "elviewash@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Elvie Washington",
+        "phone": "504-430-5319",
+        "email": "elviewash@gmail.com"
+      }
     ],
     "sop": [],
     "supplies": [],
@@ -289,36 +682,89 @@
   {
     "slug": "maintenance",
     "name": "Maintenance",
-    "description": "",
+    "description": "Ensure the church facility operates properly — HVAC, electrical, groundskeeping, and general commercial building maintenance.",
     "contacts": [
-      { "role": "Leader", "name": "Bro. Dennis Bryant", "phone": "214-730-9119", "email": "dennisbry66@yahoo.com" }
+      {
+        "role": "Leader",
+        "name": "Bro. Dennis Bryant",
+        "phone": "214-730-9119",
+        "email": "dennisbry66@yahoo.com"
+      }
     ],
-    "sop": [],
+    "sop": [
+      {
+        "label": "Lead",
+        "text": "Bro. Dennis Bryant. Issues are reported to him, and he assigns team members/contractors as needed, coordinating with the finance office."
+      },
+      {
+        "label": "During Service",
+        "text": "Bro. Dennis Bryant handles any maintenance needs that arise."
+      }
+    ],
     "supplies": [],
     "notes": ""
   },
   {
     "slug": "communications",
     "name": "Communications",
-    "description": "",
+    "description": "Keep the church up to date on upcoming events and ensure members have the info they need to attend.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Sonya Clark", "phone": "214-208-0915", "email": "sonyac090@gmail.com" }
+      {
+        "role": "Leader",
+        "name": "Sis. Sonya Clark",
+        "phone": "214-208-0915",
+        "email": "sonyac090@gmail.com"
+      }
     ],
-    "sop": [],
+    "sop": [
+      {
+        "label": "Lead",
+        "text": "Sis. Sonya Clark."
+      },
+      {
+        "label": "Method",
+        "text": "Announcements made after every service, posted in a slideshow, or sent via text."
+      }
+    ],
     "supplies": [],
     "notes": ""
   },
   {
     "slug": "womens-work",
     "name": "Women's Work",
-    "description": "Not part of the original contact roster — added from the auxiliary assessment survey. Please confirm leadership contact details.",
+    "description": "Develop spirituality among the women of the church. Not part of the original contact roster — added from the auxiliary assessment survey. Please confirm leadership contact details.",
     "contacts": [
-      { "role": "Leader", "name": "Sis. Kenda Nickerson", "phone": "214-264-0534", "email": "conswlo06@gmail.com" },
-      { "role": "Assistant", "name": "Sis. Alyce Jones", "phone": "", "email": "" },
-      { "role": "Assistant", "name": "Sis. Sonya Clark", "phone": "214-208-0915", "email": "sonyac090@gmail.com" },
-      { "role": "Assistant", "name": "Sis. Connie Rainey", "phone": "", "email": "" }
+      {
+        "role": "Leader",
+        "name": "Sis. Kenda Nickerson",
+        "phone": "214-264-0534",
+        "email": "conswlo06@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Alyce Jones",
+        "phone": "",
+        "email": ""
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Sonya Clark",
+        "phone": "214-208-0915",
+        "email": "sonyac090@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Sis. Connie Rainey",
+        "phone": "",
+        "email": ""
+      }
     ],
-    "sop": [],
+    "sop": [
+      {
+        "label": "Events",
+        "text": "Handled by Sis. Kenda Nickerson; scheduling for who helps with events is managed by the auxiliary leader."
+      }
+    ],
     "supplies": [],
     "goals": [
       "Engage women to attend prayer at church",
