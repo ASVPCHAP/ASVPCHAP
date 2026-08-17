@@ -556,3 +556,10 @@ footer.site-footer {
   padding-top: 1rem;
   margin-top: 1rem !important;
 }
+
+.leader-notice-contact {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin-top: 0.6rem !important;
+}
