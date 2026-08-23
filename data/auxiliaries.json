@@ -149,7 +149,7 @@
   {
     "slug": "choir",
     "name": "Choir",
-    "description": "",
+    "description": "The music ministry exists to lead the congregation in worship through song, creating an atmosphere where people can encounter God more deeply. It also nurtures spiritual growth by using music to teach, inspire, and unite the church community in praise and worship.",
     "contacts": [
       {
         "role": "Leader",
@@ -170,9 +170,44 @@
         "email": "bishoplance11@gmail.com"
       }
     ],
-    "sop": [],
-    "supplies": [],
-    "notes": ""
+    "sop": [
+      {
+        "label": "Setup",
+        "text": "Before service starts, the Audio/Visual Production team needs to have their setup complete for sound and lyrics. Choir/Band needs to be in place prior to the worship service starting."
+      },
+      {
+        "label": "During Service",
+        "text": "The choir and band make themselves available to accompany the service as needed. They respond to the flow of service or special requests."
+      },
+      {
+        "label": "Breakdown",
+        "text": "The choir stand is left in clean condition, trash in the trash can, fans/tambourines put away neatly. The organ and piano must be covered when not in use."
+      },
+      {
+        "label": "Emergency & Safety",
+        "text": "Health: Sis. Britney James and Sis. Sarena Martin are available to assist. Security concern: Bro. Kevin Reed or Bro. Ello Castille. Weather: follow church guidance."
+      },
+      {
+        "label": "Scheduling",
+        "text": "Choir members and band serve the ministry unless they're needed in another auxiliary — several also serve in Cleaning, Ushers, or Medical. The ministry operates regardless of how many are present."
+      },
+      {
+        "label": "Onboarding",
+        "text": "Aspirants let the choir director know they'd like to join the choir or band, then attend rehearsals prior to joining the ministry."
+      },
+      {
+        "label": "Special Circumstances",
+        "text": "The only service where the format changes is youth services."
+      }
+    ],
+    "supplies": [
+      "Kleenex (requested from the Ushers)",
+      "Fans (requested from the Ushers)",
+      "Water (provided by the church)",
+      "Throat lozenges (choir members provide as needed)",
+      "Instrument maintenance — piano under warranty, organ has a technician on call, drum tuning/sticks funded by the church"
+    ],
+    "notes": "The ministry depends on the Audio, Visual Production, and Communications teams. Roles & Responsibilities within the team not yet documented."
   },
   {
     "slug": "audio",
