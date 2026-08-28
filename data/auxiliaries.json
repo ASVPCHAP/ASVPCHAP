@@ -327,7 +327,7 @@
       },
       {
         "label": "During Service",
-        "text": "Handle basic needs as they arise."
+        "text": "Handle basic needs as they arise. Each usher makes sure their station basket is fully stocked, and watches over the saints' care during service."
       },
       {
         "label": "Post-Service",
@@ -339,7 +339,7 @@
       },
       {
         "label": "Onboarding",
-        "text": "New ushers selected by Sis. Esther Smith and leadership based on fit."
+        "text": "New ushers selected by Sis. Esther Smith and leadership based on fit. Youth ushers (male and female) must be at least 8 years old; adults must be 18+. Uniform: black suit, black or white shirt, name badge, black tie; no knee-highs, full hosiery required."
       }
     ],
     "supplies": [
@@ -361,8 +361,8 @@
     "improvements": [
       "Communication & Accountability"
     ],
-    "events": "Monthly.",
-    "volunteerRecruitment": "By announcement.",
+    "events": "Usher practice every 2nd Sunday at 2:30pm; November meeting is all-hands-on-deck.",
+    "volunteerRecruitment": "Word of mouth, and a desire to serve God's people.",
     "safetyGuidelinesStatus": "In progress",
     "emergencyProceduresStatus": "No",
     "notes": ""
@@ -443,13 +443,13 @@
   {
     "slug": "transportation",
     "name": "Transportation",
-    "description": "Move saints between locations during meetings — parking lot to church, using golf carts or a van. During large events, coordinates with finance leads on how many carts are needed based on meeting size.",
+    "description": "Move saints between locations during meetings — parking lot to church, using a van. During large events, coordinates with finance leads on how many vehicles are needed based on meeting size.",
     "contacts": [
       {
         "role": "Leader",
         "name": "Bro. Jim Smith",
-        "phone": "",
-        "email": ""
+        "phone": "469-363-7297",
+        "email": "jimmysmith1957.js@gmail.com"
       }
     ],
     "sop": [
@@ -463,7 +463,7 @@
       },
       {
         "label": "Duties",
-        "text": "Drop saints at cars via golf cart/van, transport to the Marriott (across the street), and airport drop-offs."
+        "text": "Drop saints at cars via van, transport to the Marriott (across the street), and airport drop-offs."
       },
       {
         "label": "Safety",
@@ -476,9 +476,9 @@
     ],
     "supplies": [
       "Locally rented 15-passenger van",
-      "Golf carts"
+      "Step stool (to help Saints get in and out of the van, for safety)"
     ],
-    "notes": ""
+    "notes": "Golf carts are not part of Transportation — see Parking Lot."
   },
   {
     "slug": "parking-lot",
@@ -490,6 +490,12 @@
         "name": "Bro. James Williams",
         "phone": "972-890-2725",
         "email": "jameswill35@gmail.com"
+      },
+      {
+        "role": "Assistant",
+        "name": "Bro. Shun",
+        "phone": "985-991-2593",
+        "email": ""
       }
     ],
     "sop": [
@@ -498,8 +504,12 @@
         "text": "Drop-off/pick-up facilitation on arrival and departure; manage traffic flow as people leave."
       },
       {
+        "label": "Coordination",
+        "text": "Works alongside the Medical team to direct emergency vehicles to the right area and location of the emergency. Coordinates with Transportation on the best location for drop-off and loading."
+      },
+      {
         "label": "Safety",
-        "text": "Lean on medical team for health emergencies."
+        "text": "First line of containment for problems — if it can't be handled directly, Security is contacted for more hands-on action. Lean on medical team for health emergencies."
       },
       {
         "label": "Scheduling",
@@ -507,7 +517,9 @@
       }
     ],
     "supplies": [
-      "Walkie-talkies (comms system)"
+      "Walkie-talkies (comms system)",
+      "Cones",
+      "Safety vests (so people can identify parking lot staff)"
     ],
     "notes": ""
   },
@@ -526,7 +538,7 @@
     "sop": [
       {
         "label": "Structure",
-        "text": "There are 5 cleaning teams, each handling a designated week for cleaning the church."
+        "text": "There are 4 cleaning teams, each handling a designated week for cleaning the church."
       },
       {
         "label": "Duties",
@@ -538,16 +550,21 @@
       },
       {
         "label": "Key Holders",
-        "text": "Bro. James Williams, Bro. Kyron Washington, Bro. Kevin Reed, Bro. Dennis Bryant, Bro. LaDaryon."
+        "text": "Bro. Ello Castille, Bro. Aleck, Bro. Kyron Washington, and Bro. James Williams."
+      },
+      {
+        "label": "Team Leads",
+        "text": "Leaders over a team, working directly under Bro. James Williams: Bro. Kyron Washington, Bro. Ello Castille, and Bro. Aleck."
       }
     ],
     "supplies": [
       "Vacuum",
       "Mops",
       "Dusters",
-      "Sanitization supplies (stocked in the facility cabinet at the front of the church)"
+      "Sanitization supplies (stocked in the facility cabinet at the front of the church)",
+      "4 100ft industrial extension cords (for vacuuming, etc.)"
     ],
-    "notes": "Anyone who notices an issue should notify someone within the church or a team lead."
+    "notes": "Anyone who notices an issue should notify someone within the church or a team lead. Cleaning supplies may change."
   },
   {
     "slug": "international-finance",
