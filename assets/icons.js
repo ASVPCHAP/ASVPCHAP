@@ -19,6 +19,7 @@ const AUX_ICONS = {
   maintenance: '<path d="M14.7 6.3a4 4 0 1 1-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-3 3-2-2 3-3z"/>',
   communications: '<path d="M3 9v6l4 1 10 4V4L7 8l-4 1z"/><path d="M7 16v3a2 2 0 0 0 4 0v-2"/>',
   "womens-work": '<circle cx="12" cy="12" r="2.5"/><path d="M12 2a3 3 0 0 1 0 6 3 3 0 0 1 0-6zM12 16a3 3 0 0 1 0 6 3 3 0 0 1 0-6zM2 12a3 3 0 0 1 6 0 3 3 0 0 1-6 0zM16 12a3 3 0 0 1 6 0 3 3 0 0 1-6 0z"/>',
+  baptistry: '<path d="M12 3c3 4 5 7 5 10a5 5 0 0 1-10 0c0-3 2-6 5-10z"/>',
 };
 
 function auxIconSvg(slug, extraClass) {
