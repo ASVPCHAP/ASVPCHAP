@@ -3,7 +3,9 @@
     "slug": "baptistry",
     "name": "Baptistry",
     "description": "How to fill and drain the baptism pool.",
-    "contacts": [],
+    "contacts": [
+      { "role": "Contact", "name": "Bro. Aleck Johnson", "phone": "504-329-6970", "email": "" }
+    ],
     "sections": [
       {
         "title": "To Fill",
