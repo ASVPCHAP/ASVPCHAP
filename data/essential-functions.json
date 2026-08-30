@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "baptistry",
+    "name": "Baptistry",
+    "description": "How to fill and drain the baptism pool.",
+    "contacts": [
+      { "role": "Contact", "name": "Bro. Aleck Johnson", "phone": "504-329-6970", "email": "" }
+    ],
+    "sections": [
+      {
+        "title": "To Fill",
+        "steps": [
+          {
+            "text": "Open the small door behind the stage (on the side where the singers are). Duck down and turn left to walk through the wooden beams to view under the baptism pool. Look for a white pipe with a red valve.",
+            "image": "assets/images/essential-functions/baptistry/access-door.jpg",
+            "alt": "Small access door behind the stage leading under the baptistry"
+          },
+          {
+            "text": "The valve should be parallel to the pipe — this means the drain is open. Rotate the valve clockwise to close it so the pool can be filled. Done correctly, the valve will be perpendicular to the white pipe.",
+            "image": "assets/images/essential-functions/baptistry/valve-close.jpg",
+            "alt": "Red valve under the baptistry; rotate clockwise to close it"
+          },
+          {
+            "text": "Walk up the staircase on the same side to start the water. Press the button shown to begin filling the pool.",
+            "image": "assets/images/essential-functions/baptistry/fill-button.jpg",
+            "alt": "Fill button on the inside wall of the baptistry"
+          },
+          {
+            "text": "The water takes approximately 45 minutes to fill (44 min). You can baptize at this point if necessary. For warmer water, you'll need to wait for the heater to raise the temperature — that takes about 4 hours minimum to feel comfortable.",
+            "image": "",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "title": "To Empty",
+        "steps": [
+          {
+            "text": "Once baptism is complete, press this button to let the system know draining is about to start, so it doesn't turn the water back on once it drops below a certain level.",
+            "image": "assets/images/essential-functions/baptistry/drain-button.jpg",
+            "alt": "Drain button on the inside wall of the baptistry"
+          },
+          {
+            "text": "Walk back under the pool and rotate the red valve counter-clockwise to open it. You should hear the water start draining, and the system will begin pumping it out of the building. Done correctly, the valve will be aligned with the white pipe.",
+            "image": "assets/images/essential-functions/baptistry/valve-open.jpg",
+            "alt": "Red valve under the baptistry; rotate counter-clockwise to open it"
+          },
+          {
+            "text": "Once the water is completely drained, use this squeegee to push the remaining water toward the drain.",
+            "image": "assets/images/essential-functions/baptistry/squeegee.jpg",
+            "alt": "Squeegee stored near the baptistry stairs"
+          },
+          {
+            "text": "Continuously push the water toward this drain. This may take about 10–15 minutes. You won't be able to get the pool completely dry.",
+            "image": "assets/images/essential-functions/baptistry/drain-target.jpg",
+            "alt": "Drain location at the bottom of the baptistry pool"
+          }
+        ]
+      }
+    ],
+    "notes": ""
+  }
+]

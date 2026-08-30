@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Update Request | The Living Gospel - Mesquite</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand"><img src="assets/images/logo.png" alt="The Living Gospel Church logo">The Living Gospel - Mesquite<small>Auxiliary Handbook</small></div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="structure.html">Church Structure</a>
+      <a href="auxiliaries.html">Auxiliaries</a>
+      <a href="essential-functions.html">Essential Functions</a>
+      <a href="sop-questionnaire.html">SOP Questionnaire</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <p class="breadcrumb" id="back-link"><a href="auxiliaries.html">&larr; All Auxiliaries</a></p>
+  <h1 class="page-title">Update Request</h1>
+  <p class="page-subtitle">
+    Add a contact, leave a note, request supplies, or add detail to an existing SOP. This
+    doesn't publish to the site immediately — it's reviewed and folded in, same as the SOP
+    questionnaire.
+  </p>
+
+  <div id="form-status"></div>
+
+  <form name="auxiliary-update" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="sop-form" id="update-form">
+    <input type="hidden" name="form-name" value="auxiliary-update">
+    <p class="honeypot-field">
+      <label>Don't fill this out if you're human: <input name="bot-field"></label>
+    </p>
+
+    <fieldset>
+      <legend>Your info</legend>
+      <label for="submitter-name">Your name <span class="required-mark">*</span></label>
+      <input type="text" id="submitter-name" name="submitter-name" required>
+
+      <label for="submitter-email" style="margin-top:0.9rem;">Your email <span class="required-mark">*</span></label>
+      <input type="email" id="submitter-email" name="submitter-email" required>
+
+      <label for="auxiliary" style="margin-top:0.9rem;">Which auxiliary is this for? <span class="required-mark">*</span></label>
+      <select id="auxiliary" name="auxiliary" required>
+        <option value="">— Select auxiliary —</option>
+        <option value="medical">Medical</option>
+        <option value="servers">Servers</option>
+        <option value="multipurpose">Multipurpose</option>
+        <option value="choir">Choir</option>
+        <option value="audio">Audio</option>
+        <option value="visual-production">Visual Production</option>
+        <option value="ushers">Ushers</option>
+        <option value="kitchen">Kitchen</option>
+        <option value="security">Security</option>
+        <option value="transportation">Transportation</option>
+        <option value="parking-lot">Parking Lot</option>
+        <option value="cleaning">Cleaning</option>
+        <option value="international-finance">International Finance</option>
+        <option value="youth-work">Youth Work</option>
+        <option value="process-improvement">Process Improvement</option>
+        <option value="finance">Finance</option>
+        <option value="greeters">Greeters</option>
+        <option value="maintenance">Maintenance</option>
+        <option value="communications">Communications</option>
+        <option value="womens-work">Women's Work</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>What do you want to do? <span class="required-mark">*</span></legend>
+      <div class="radio-group">
+        <label class="radio-option"><input type="radio" name="request-type" value="contact" required> Add a contact</label>
+        <label class="radio-option"><input type="radio" name="request-type" value="note" required> Add a note</label>
+        <label class="radio-option"><input type="radio" name="request-type" value="supplies" required> Request supplies</label>
+        <label class="radio-option"><input type="radio" name="request-type" value="sop-details" required> Add SOP details</label>
+      </div>
+    </fieldset>
+
+    <fieldset data-section="sop-details" hidden>
+      <legend>Add SOP Details</legend>
+      <p class="field-hint">Your auxiliary already has an SOP documented. Use this to add detail, correct something, or cover a situation it doesn't address yet — not to replace what's already there.</p>
+      <label for="sop-details-section">Which part of the SOP does this relate to? (e.g. Pre-Service, Safety, Onboarding)</label>
+      <input type="text" id="sop-details-section" name="sop-details-section">
+
+      <label for="sop-details-text" style="margin-top:0.9rem;">What would you like to add? <span class="required-mark">*</span></label>
+      <textarea id="sop-details-text" name="sop-details-text"></textarea>
+    </fieldset>
+
+    <fieldset data-section="contact" hidden>
+      <legend>Add a Contact</legend>
+      <label for="contact-name">Name <span class="required-mark">*</span></label>
+      <input type="text" id="contact-name" name="contact-name">
+
+      <label for="contact-role" style="margin-top:0.9rem;">Role (e.g. Leader, Assistant, Volunteer)</label>
+      <input type="text" id="contact-role" name="contact-role">
+
+      <label for="contact-phone" style="margin-top:0.9rem;">Phone</label>
+      <input type="text" id="contact-phone" name="contact-phone">
+
+      <label for="contact-email" style="margin-top:0.9rem;">Email</label>
+      <input type="email" id="contact-email" name="contact-email">
+    </fieldset>
+
+    <fieldset data-section="note" hidden>
+      <legend>Add a Note</legend>
+      <p class="field-hint">Anything worth recording about this auxiliary — a correction, a heads-up, context for the next person.</p>
+      <textarea name="note-text"></textarea>
+    </fieldset>
+
+    <fieldset data-section="supplies" hidden>
+      <legend>Request Supplies</legend>
+      <label for="supplies-items">What's needed? <span class="required-mark">*</span></label>
+      <textarea id="supplies-items" name="supplies-items"></textarea>
+
+      <label for="supplies-reason" style="margin-top:0.9rem;">Why / how urgent?</label>
+      <textarea id="supplies-reason" name="supplies-reason"></textarea>
+    </fieldset>
+
+    <div class="submit-row">
+      <button type="submit" class="btn">Submit</button>
+      <span id="submit-status" class="empty-note"></span>
+    </div>
+  </form>
+</main>
+
+<footer class="site-footer">
+  The Living Gospel - Mesquite Auxiliary Handbook &middot; Built for internal reference and training.
+</footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/update-form.js"></script>
+</body>
+</html>
