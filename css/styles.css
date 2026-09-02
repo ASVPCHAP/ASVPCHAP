@@ -13,7 +13,7 @@
   --danger: #e25f5f;
   --radius: 14px;
   --font-display: "Bebas Neue", "Oswald", Impact, "Arial Narrow", sans-serif;
-  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Barlow", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --max: 1160px;
   color-scheme: dark;
 }
@@ -286,10 +286,11 @@ footer a:hover { color: var(--text); }
 .plan-pill { display: inline-block; background: rgba(217,169,59,.15); color: var(--accent); border-radius: 999px; padding: .3rem .8rem; font-size: .8rem; font-weight: 600; margin-bottom: 1.25rem; }
 
 /* Reveal on scroll */
-.reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
-.reveal.in { opacity: 1; transform: none; }
+.reveal { transition: opacity .6s ease, transform .6s ease; }
+.reveal.pre { opacity: 0; transform: translateY(18px); }
+.reveal.pre.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1; transform: none; transition: none; }
+  .reveal, .reveal.pre { opacity: 1; transform: none; transition: none; }
   .hero-logo img, .hero-logo::before { animation: none; }
 }
 

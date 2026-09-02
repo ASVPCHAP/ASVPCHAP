@@ -218,7 +218,8 @@
 
   /* ---------- Reveal on scroll ---------- */
   const io = new IntersectionObserver((entries) => entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), { threshold: 0.12 });
-  $$(".reveal").forEach((el) => io.observe(el));
+  // Only elements below the first viewport animate in; everything visible at load stays visible.
+  $$(".reveal").forEach((el) => { if (el.getBoundingClientRect().top > window.innerHeight) { el.classList.add("pre"); io.observe(el); } });
 })();
 
 /* ---------- Gallery + lightbox ---------- */
@@ -243,5 +244,5 @@
     if (e.key === "ArrowRight") show(cur + 1);
   });
   const io = new IntersectionObserver((es) => es.forEach((en) => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), { threshold: 0.1 });
-  grid.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+  grid.querySelectorAll(".reveal").forEach((el) => { if (el.getBoundingClientRect().top > window.innerHeight) { el.classList.add("pre"); io.observe(el); } });
 })();
