@@ -1,0 +1,59 @@
+[
+  {
+    "id": "full_body_3day",
+    "days": 3,
+    "min_training_age": "novice",
+    "day_templates": [
+      { "label": "Full Body A", "muscle_groups": ["chest", "back", "quads", "shoulders", "core"] },
+      { "label": "Full Body B", "muscle_groups": ["back", "hamstrings", "chest", "biceps", "core"] },
+      { "label": "Full Body C", "muscle_groups": ["quads", "shoulders", "back", "triceps", "core"] }
+    ]
+  },
+  {
+    "id": "upper_lower_4day",
+    "days": 4,
+    "min_training_age": "novice",
+    "day_templates": [
+      { "label": "Upper A", "muscle_groups": ["chest", "back", "shoulders", "biceps", "triceps"] },
+      { "label": "Lower A", "muscle_groups": ["quads", "hamstrings", "glutes", "calves", "core"] },
+      { "label": "Upper B", "muscle_groups": ["back", "chest", "shoulders", "triceps", "biceps"] },
+      { "label": "Lower B", "muscle_groups": ["hamstrings", "quads", "glutes", "calves", "core"] }
+    ]
+  },
+  {
+    "id": "upper_lower_pump",
+    "days": 4,
+    "min_training_age": "intermediate",
+    "day_templates": [
+      { "label": "Upper Pump A", "muscle_groups": ["chest", "shoulders", "triceps", "back", "biceps"] },
+      { "label": "Lower Pump A", "muscle_groups": ["quads", "glutes", "hamstrings", "calves"] },
+      { "label": "Upper Pump B", "muscle_groups": ["back", "biceps", "shoulders", "chest", "triceps"] },
+      { "label": "Lower Pump B", "muscle_groups": ["hamstrings", "glutes", "quads", "calves"] }
+    ]
+  },
+  {
+    "id": "bro_split_5day",
+    "days": 5,
+    "min_training_age": "intermediate",
+    "day_templates": [
+      { "label": "Chest", "muscle_groups": ["chest", "triceps"] },
+      { "label": "Back", "muscle_groups": ["back", "biceps"] },
+      { "label": "Legs", "muscle_groups": ["quads", "hamstrings", "glutes", "calves"] },
+      { "label": "Shoulders", "muscle_groups": ["shoulders", "core"] },
+      { "label": "Arms", "muscle_groups": ["biceps", "triceps"] }
+    ]
+  },
+  {
+    "id": "ppl_6day",
+    "days": 6,
+    "min_training_age": "intermediate",
+    "day_templates": [
+      { "label": "Push A", "muscle_groups": ["chest", "shoulders", "triceps"] },
+      { "label": "Pull A", "muscle_groups": ["back", "biceps"] },
+      { "label": "Legs A", "muscle_groups": ["quads", "hamstrings", "glutes", "calves"] },
+      { "label": "Push B", "muscle_groups": ["shoulders", "chest", "triceps"] },
+      { "label": "Pull B", "muscle_groups": ["back", "biceps", "core"] },
+      { "label": "Legs B", "muscle_groups": ["hamstrings", "quads", "glutes", "calves"] }
+    ]
+  }
+]

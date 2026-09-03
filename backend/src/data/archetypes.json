@@ -1,0 +1,153 @@
+[
+  {
+    "id": "old_school_mass_builder",
+    "display_name": "Old-School Mass Builder",
+    "matched_names": [
+      "old school", "golden era", "mass builder", "mass monster", "heavy compound",
+      "powerlifting bodybuilder", "brute strength", "old school bodybuilding", "raw power"
+    ],
+    "rep_range": { "min": 6, "max": 10 },
+    "tempo": { "eccentric_sec": 2, "pause_sec": 0, "concentric_sec": 1 },
+    "rest_seconds": { "compound": 120, "isolation": 90 },
+    "exercise_bias": {
+      "compound_ratio": 0.7,
+      "isolation_ratio": 0.3,
+      "preferred_movement_patterns": [
+        "free weight over machine when compound",
+        "explosive concentric"
+      ]
+    },
+    "volume": { "sets_per_muscle_per_week": 12 },
+    "split_options": ["bro_split_5day", "upper_lower_4day", "full_body_3day"],
+    "intensity_techniques": ["forced_reps", "rest_pause"],
+    "cueing_style": "drive the weight, explosive concentric, controlled but not slow negative",
+    "progression_style": "linear_load",
+    "phase_sensitivity": "low"
+  },
+  {
+    "id": "contraction_pump_specialist",
+    "display_name": "Contraction & Pump Focus",
+    "matched_names": [
+      "pump", "contraction", "mind muscle", "mind-muscle connection", "posing",
+      "aesthetics", "isolation focus", "squeeze and burn"
+    ],
+    "rep_range": { "min": 10, "max": 15 },
+    "tempo": { "eccentric_sec": 3, "pause_sec": 1, "concentric_sec": 1 },
+    "rest_seconds": { "compound": 60, "isolation": 45 },
+    "exercise_bias": {
+      "compound_ratio": 0.4,
+      "isolation_ratio": 0.6,
+      "preferred_movement_patterns": [
+        "cable/machine over free weight when isolating",
+        "unilateral finishers"
+      ]
+    },
+    "volume": { "sets_per_muscle_per_week": 16 },
+    "split_options": ["bro_split_5day", "upper_lower_pump"],
+    "intensity_techniques": ["drop_sets", "partials_at_peak_contraction", "1.5_reps"],
+    "cueing_style": "mind-muscle connection, squeeze at peak, controlled negative",
+    "progression_style": "rpe_autoregulated",
+    "phase_sensitivity": "medium"
+  },
+  {
+    "id": "science_based_evidence_lifter",
+    "display_name": "Science-Based / Evidence Lifter",
+    "matched_names": [
+      "science based", "evidence based", "research backed", "data driven lifting",
+      "balanced hypertrophy", "no nonsense lifting"
+    ],
+    "rep_range": { "min": 8, "max": 12 },
+    "tempo": { "eccentric_sec": 2, "pause_sec": 0, "concentric_sec": 1 },
+    "rest_seconds": { "compound": 90, "isolation": 90 },
+    "exercise_bias": {
+      "compound_ratio": 0.55,
+      "isolation_ratio": 0.45,
+      "preferred_movement_patterns": [
+        "whichever variant allows progressive overload most reliably"
+      ]
+    },
+    "volume": { "sets_per_muscle_per_week": 14 },
+    "split_options": ["upper_lower_4day", "ppl_6day", "full_body_3day"],
+    "intensity_techniques": [],
+    "cueing_style": "controlled tempo, full range of motion, minimal gimmicks",
+    "progression_style": "rpe_autoregulated_tracked_overload",
+    "phase_sensitivity": "medium"
+  },
+  {
+    "id": "fascia_stretch_high_volume",
+    "display_name": "Fascia Stretch / High-Volume Modern",
+    "matched_names": [
+      "stretch", "lengthened partials", "high volume", "fascia stretch",
+      "modern bodybuilding", "stretch focused"
+    ],
+    "rep_range": { "min": 10, "max": 20 },
+    "tempo": { "eccentric_sec": 3, "pause_sec": 2, "concentric_sec": 1 },
+    "rest_seconds": { "compound": 75, "isolation": 45 },
+    "exercise_bias": {
+      "compound_ratio": 0.35,
+      "isolation_ratio": 0.65,
+      "preferred_movement_patterns": [
+        "lengthened stretch-position emphasis",
+        "long range of motion variants"
+      ]
+    },
+    "volume": { "sets_per_muscle_per_week": 20 },
+    "split_options": ["bro_split_5day", "ppl_6day"],
+    "intensity_techniques": ["drop_sets", "lengthened_partials", "myo_reps"],
+    "cueing_style": "deep stretch under load, high volume, chase the pump",
+    "progression_style": "volume_driven",
+    "phase_sensitivity": "medium"
+  },
+  {
+    "id": "powerbuilding_hybrid",
+    "display_name": "Powerbuilding Hybrid",
+    "matched_names": [
+      "powerbuilding", "strength and size", "powerlifting hybrid", "strength hypertrophy",
+      "big and strong"
+    ],
+    "rep_range": { "min": 4, "max": 8 },
+    "tempo": { "eccentric_sec": 2, "pause_sec": 0, "concentric_sec": 1 },
+    "rest_seconds": { "compound": 180, "isolation": 60 },
+    "exercise_bias": {
+      "compound_ratio": 0.65,
+      "isolation_ratio": 0.35,
+      "preferred_movement_patterns": [
+        "barbell main lifts",
+        "hypertrophy accessories after mains"
+      ]
+    },
+    "volume": { "sets_per_muscle_per_week": 13 },
+    "split_options": ["upper_lower_4day", "full_body_3day"],
+    "intensity_techniques": ["rest_pause"],
+    "cueing_style": "strength-first on mains, controlled hypertrophy accessories",
+    "progression_style": "linear_on_mains_rpe_on_accessories",
+    "phase_sensitivity": "low"
+  },
+  {
+    "id": "skill_progression_calisthenics",
+    "display_name": "Skill-Based Bodyweight Progression",
+    "matched_names": [
+      "calisthenics", "bodyweight skill", "planche", "handstand", "street workout",
+      "gymnastics strength", "skill progression"
+    ],
+    "rep_range": { "min": 5, "max": 12 },
+    "tempo": { "eccentric_sec": 3, "pause_sec": 1, "concentric_sec": 1 },
+    "rest_seconds": { "compound": 120, "isolation": 60 },
+    "exercise_bias": {
+      "compound_ratio": 0.6,
+      "isolation_ratio": 0.4,
+      "preferred_movement_patterns": [
+        "skill work first when fresh",
+        "leverage progressions over added load when possible"
+      ]
+    },
+    "volume": { "sets_per_muscle_per_week": 14 },
+    "split_options": ["ppl_6day", "full_body_3day"],
+    "intensity_techniques": ["isometric_holds"],
+    "cueing_style": "skill work first when fresh, then strength bodyweight, then accessory core",
+    "progression_style": "leverage_rep_progression_ladder",
+    "phase_sensitivity": "high",
+    "session_order": ["skill_work_first_when_fresh", "strength_bodyweight", "accessory_core"],
+    "load_style": "bodyweight + band / weighted vest scaling"
+  }
+]
