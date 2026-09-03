@@ -1,0 +1,26 @@
+{
+  "deficit": {
+    "phase": "deficit",
+    "volume_modifier": 0.75,
+    "skill_work_frequency": "reduced",
+    "intensity_technique_usage": "minimal",
+    "deload_frequency_weeks": 3,
+    "priority": "maintain_strength_and_skill_level"
+  },
+  "maintenance": {
+    "phase": "maintenance",
+    "volume_modifier": 1.0,
+    "skill_work_frequency": "normal",
+    "intensity_technique_usage": "normal",
+    "deload_frequency_weeks": 4,
+    "priority": "standard_progressive_overload"
+  },
+  "surplus": {
+    "phase": "surplus",
+    "volume_modifier": 1.15,
+    "skill_work_frequency": "increased",
+    "intensity_technique_usage": "normal",
+    "deload_frequency_weeks": 5,
+    "priority": "progress_new_skills_and_load"
+  }
+}
