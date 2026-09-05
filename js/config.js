@@ -21,14 +21,15 @@ window.TP_CONFIG = {
     photo: "assets/img/coach.jpg",   // drop a photo at this path; a placeholder shows until then
     heroImage: "assets/img/hero.jpg",// optional full-bleed hero photo (training / stage shot)
     bio: [
-      "Kevin Chapman is a licensed pharmacist and a competitive natural bodybuilder. True Power is where those two worlds meet: clinical understanding of how the body actually works, applied to physique coaching with the discipline of an athlete who steps on stage himself.",
-      "Every client gets a plan written for their body, schedule and goal. Macros are calculated to the gram with training-day, rest-day and high-carb-day targets, cardio is programmed with intent, and every Saturday you check in with numbers, photos and a plan for the week ahead.",
+      "Kevin Chapman is a licensed pharmacist, a GLP-1 clinician, and a competitive natural bodybuilder. True Power is where that clinical background meets physique coaching: an understanding of how the body actually works, applied with the discipline of an athlete who steps on stage himself.",
+      "Every client gets a plan written for their body, schedule and goal, whether that means building macros around a GLP-1 or peptide, working toward a natural transformation, or prepping for a show. Macros are calculated to the gram with training-day, rest-day and high-carb-day targets, cardio is programmed with intent, and every Saturday you check in with numbers, photos and a plan for the week ahead.",
       "Faith is at the center of the brand. Psalms 107:14 is on the logo because the work is about breaking chains, whether that chain is a number on the scale, a habit, or a belief about what you can do."
     ],
     // Add real credentials / achievements here. Leave empty to hide the list.
     credentials: [
       "Licensed pharmacist",
-      "Natural (drug-tested) bodybuilder · INBA / PNBA",
+      "Licensed GLP-1 clinician",
+      "Natural bodybuilder · INBA / PNBA",
       "Natural Olympia medalist",
       "Online coach · Contest prep",
     ],
@@ -146,6 +147,10 @@ window.TP_CONFIG = {
     {
       q: "Do you coach competitors?",
       a: "Yes. Contest Prep covers the full timeline from off-season through peak week and the reverse diet after the show, with weeks-out tracking on the True Power prep sheet."
+    },
+    {
+      q: "Do you work with clients on GLP-1s or peptides?",
+      a: "Yes. Kevin is a licensed GLP-1 clinician, and coaching adapts to wherever you are with it. If you're just starting out, your macros and training are built around it from day one. If you're planning to come off, he'll help you build a plan for the transition and hold onto your results afterward. If you're staying on long term, that's fine too. There's no one right way to do this."
     },
     {
       q: "Can I cancel?",
