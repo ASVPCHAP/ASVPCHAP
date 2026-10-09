@@ -9,14 +9,15 @@ agent workflows for SMB and mid-market clients.
   **30,000+ emails a month at a ~3% reply rate.** Helped take a procurement platform from zero to $1.5M monthly GTV.
 - **Automated pricing workflow (CoreTrust):** Sheets, Airtable, n8n and Copilot on Azure feeding a live dashboard.
   Replaced a 7-10 day review of 500+ SKUs, was adopted by ~22 sales executives, and cut sales cycles ~50%.
-- **LLM cost routing (Rampart):** rebuilt an AI pricing workflow with DeepSeek/Gemini routing to cut model cost.
+- **Achilles, a GPO spend-analysis harness (Rampart):** Kimi K3 and DeepSeek Flash matching customer spend (300+ SKUs per analysis)
+  to the supplier base at 20-25 analyses a day, for **$0.14 per analysis.**
 - **Client installs (Rockwall):** enrollment, billing and ops automation plus a voice agent and chatbot for a private school
   (~30 staff hours a week saved). A sales system and rep onboarding for a compounding pharmacy scaling to 100 field reps.
 
 ### In the seat
 - **CoreTrust, Senior AE, Private Equity:** top 1% of reps in 2023 and 2024. **$143M GTV against a $60M annual quota:** 92% in year one, **147%** in year two.
   Multi-stakeholder deals across PE portfolio companies (FedEx, CDW, Dell, American Express).
-- **Rampart, Head of BD:** built a 16-partner supplier network (~$600B aggregate spend) and a $160M+ GTV pipeline.
+- **Rampart, Head of GTM Operations & BD:** added **$60M in pipeline** through channel partnerships with Corpay, Treya Partners and Hudson West.
 - **Horizon3.ai, Senior AE (Hunter):** 3rd AE on the team at a Series C cybersecurity startup. Built a territory from scratch with VAR and MSSP partners.
 
 ### Code here
