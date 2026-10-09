@@ -17,7 +17,7 @@ agent workflows for SMB and mid-market clients.
 - **CoreTrust, Senior AE, Private Equity:** top 1% of reps in 2023 and 2024. **$143M GTV against a $60M annual quota:** 92% in year one, **147%** in year two.
   Multi-stakeholder deals across PE portfolio companies (FedEx, CDW, Dell, American Express).
 - **Rampart, Head of BD:** built a 16-partner supplier network (~$600B aggregate spend) and a $160M+ GTV pipeline.
-- **Horizon3.ai:** one of the first sales hires at a Series C cybersecurity startup. Built a territory from scratch with VAR and MSSP partners.
+- **Horizon3.ai:** 3rd AE on the team at a Series C cybersecurity startup. Built a territory from scratch with VAR and MSSP partners.
 
 ### Code here
 - **[outbound-engine](https://github.com/ASVPCHAP/outbound-engine):** human-in-the-loop LinkedIn outbound.
