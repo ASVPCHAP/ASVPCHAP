@@ -1,16 +1,34 @@
-## Hi there 👋
+## Anthony Chapman
 
-<!--
-**ASVPCHAP/ASVPCHAP** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**GTM engineer and enterprise seller.** I've carried enterprise quota for 10+ years, and I build the Clay, CRM and AI
+systems that fill the pipeline. Founder of [Rockwall Partners](https://rockwallpartners.com), shipping AI automations and
+agent workflows for SMB and mid-market clients.
 
-Here are some ideas to get you started:
+### GTM systems I've built
+- **Signal-based outbound in Clay (Valstone):** cold email, warm LinkedIn and buying-signal tracking.
+  **30,000+ emails a month at a ~3% reply rate.** Helped take a procurement platform from zero to $1.5M monthly GTV.
+- **Automated pricing workflow (CoreTrust):** Sheets, Airtable, n8n and Copilot on Azure feeding a live dashboard.
+  Replaced a 7-10 day review of 500+ SKUs, was adopted by ~22 sales executives, and cut sales cycles ~50%.
+- **LLM cost routing (Rampart):** rebuilt an AI pricing workflow with DeepSeek/Gemini routing to cut model cost.
+- **Client installs (Rockwall):** enrollment, billing and ops automation plus a voice agent and chatbot for a private school
+  (~30 staff hours a week saved). A sales system and rep onboarding for a compounding pharmacy scaling to 100 field reps.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### In the seat
+- **CoreTrust, Senior AE, Private Equity:** top 1% of reps in 2023 and 2024. Multi-stakeholder deals across PE portfolio companies.
+- **Rampart, Head of BD:** built a 16-partner supplier network (~$600B aggregate spend) and a $160M+ GTV pipeline.
+- **Horizon3.ai:** one of the first sales hires at a Series C cybersecurity startup. Built a territory from scratch with VAR and MSSP partners.
+
+### Code here
+- **[outbound-engine](https://github.com/ASVPCHAP/outbound-engine):** human-in-the-loop LinkedIn outbound.
+  Signal scoring, AI drafting behind an approval queue, send caps enforced in code. Python standard library, schema-as-code Airtable, tests.
+- **[agerite-field-system](https://github.com/ASVPCHAP/agerite-field-system)** · **[meeting-engine-live](https://github.com/ASVPCHAP/meeting-engine-live)** · **[rockwall-sales-proof](https://github.com/ASVPCHAP/rockwall-sales-proof)**
+
+### How I work
+- **Warm first, signals second, cold last.** One data point isn't a signal; a cluster is.
+- **AI does everything before the call. People make every call that matters.**
+- **Guardrails live in code, not in a doc.**
+
+**Stack:** Clay · HubSpot · Salesforce · Instantly · Sales Navigator · n8n · Make · Zapier · Python · TypeScript · Claude API / Claude Code · OpenRouter · Airtable · Cloudflare Workers · MCP
+
+**Open to:** GTM Engineer, Account Executive and Senior AE roles. DFW or remote.
+[LinkedIn](https://www.linkedin.com/in/anthonychapmansales/) · [anthony-chapman.netlify.app](https://anthony-chapman.netlify.app/) · anthony@rockwallpartners.com
